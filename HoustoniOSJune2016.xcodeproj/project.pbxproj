@@ -15,6 +15,7 @@
 		340AAE481D0F108300C488BF /* WhatAreProperties in Resources */ = {isa = PBXBuildFile; fileRef = 340AAE471D0F108300C488BF /* WhatAreProperties */; };
 		340AAE4B1D0F152500C488BF /* CatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AAE4A1D0F152500C488BF /* CatViewController.m */; };
 		340AAE4E1D0F231500C488BF /* DogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AAE4D1D0F231500C488BF /* DogViewController.m */; };
+		340AAE501D0F346400C488BF /* Assignment1 in Resources */ = {isa = PBXBuildFile; fileRef = 340AAE4F1D0F346400C488BF /* Assignment1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		340AAE4A1D0F152500C488BF /* CatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatViewController.m; sourceTree = "<group>"; };
 		340AAE4C1D0F231500C488BF /* DogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogViewController.h; sourceTree = "<group>"; };
 		340AAE4D1D0F231500C488BF /* DogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogViewController.m; sourceTree = "<group>"; };
+		340AAE4F1D0F346400C488BF /* Assignment1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Assignment1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				340AAE4A1D0F152500C488BF /* CatViewController.m */,
 				340AAE4C1D0F231500C488BF /* DogViewController.h */,
 				340AAE4D1D0F231500C488BF /* DogViewController.m */,
+				340AAE4F1D0F346400C488BF /* Assignment1 */,
 			);
 			name = Outlets;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				340AAE501D0F346400C488BF /* Assignment1 in Resources */,
 				340AAE3E1D0F09AB00C488BF /* LaunchScreen.storyboard in Resources */,
 				340AAE3B1D0F09AB00C488BF /* Assets.xcassets in Resources */,
 				340AAE481D0F108300C488BF /* WhatAreProperties in Resources */,
