@@ -10,10 +10,10 @@ Task
 Create a "Projects" folder anywhere on your computer. I prefer inside ~/Documents.
 Create an empty repository inside the "Projects" folder and call it "OutletsAndActions".
 Drag 2 labels and put them on the view.
-Set the ID of the labels to "firstNameLabel" and "lastNameLabel".
+Create the outlets "firstNameLabel" and "lastNameLabel".
 Set the text of the labels to "First Name" and "Last Name".
 Drag 2 text fields on the view.
-Set the ID of the text fields to "firstNameTextField" and "lastNameTextField"
+Create the outlets for text fields to "firstNameTextField" and "lastNameTextField"
 Drag a button on the view
 Open the ViewController.m file and declare the outlets for labels and textfields.
 Using Storyboard connect the outlets to their corresponding controls
