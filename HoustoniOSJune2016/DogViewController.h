@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DogViewController.h
 //  HoustoniOSJune2016
 //
 //  Created by Mohammad Azam on 6/13/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DogViewController : UIViewController
 
 @end
-

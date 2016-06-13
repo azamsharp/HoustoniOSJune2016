@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		340AAE301D0F09AA00C488BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AAE2F1D0F09AA00C488BF /* main.m */; };
 		340AAE331D0F09AA00C488BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AAE321D0F09AA00C488BF /* AppDelegate.m */; };
-		340AAE361D0F09AA00C488BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AAE351D0F09AA00C488BF /* ViewController.m */; };
 		340AAE391D0F09AB00C488BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340AAE371D0F09AB00C488BF /* Main.storyboard */; };
 		340AAE3B1D0F09AB00C488BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340AAE3A1D0F09AB00C488BF /* Assets.xcassets */; };
 		340AAE3E1D0F09AB00C488BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340AAE3C1D0F09AB00C488BF /* LaunchScreen.storyboard */; };
+		340AAE481D0F108300C488BF /* WhatAreProperties in Resources */ = {isa = PBXBuildFile; fileRef = 340AAE471D0F108300C488BF /* WhatAreProperties */; };
+		340AAE4B1D0F152500C488BF /* CatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AAE4A1D0F152500C488BF /* CatViewController.m */; };
+		340AAE4E1D0F231500C488BF /* DogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AAE4D1D0F231500C488BF /* DogViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,15 @@
 		340AAE2F1D0F09AA00C488BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		340AAE311D0F09AA00C488BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		340AAE321D0F09AA00C488BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		340AAE341D0F09AA00C488BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		340AAE351D0F09AA00C488BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		340AAE381D0F09AB00C488BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		340AAE3A1D0F09AB00C488BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		340AAE3D1D0F09AB00C488BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		340AAE3F1D0F09AB00C488BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		340AAE471D0F108300C488BF /* WhatAreProperties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WhatAreProperties; sourceTree = "<group>"; };
+		340AAE491D0F152500C488BF /* CatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatViewController.h; sourceTree = "<group>"; };
+		340AAE4A1D0F152500C488BF /* CatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatViewController.m; sourceTree = "<group>"; };
+		340AAE4C1D0F231500C488BF /* DogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogViewController.h; sourceTree = "<group>"; };
+		340AAE4D1D0F231500C488BF /* DogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +63,9 @@
 		340AAE2D1D0F09AA00C488BF /* HoustoniOSJune2016 */ = {
 			isa = PBXGroup;
 			children = (
+				340AAE451D0F100500C488BF /* Week 1 */,
 				340AAE311D0F09AA00C488BF /* AppDelegate.h */,
 				340AAE321D0F09AA00C488BF /* AppDelegate.m */,
-				340AAE341D0F09AA00C488BF /* ViewController.h */,
-				340AAE351D0F09AA00C488BF /* ViewController.m */,
 				340AAE371D0F09AB00C488BF /* Main.storyboard */,
 				340AAE3A1D0F09AB00C488BF /* Assets.xcassets */,
 				340AAE3C1D0F09AB00C488BF /* LaunchScreen.storyboard */,
@@ -77,6 +81,26 @@
 				340AAE2F1D0F09AA00C488BF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		340AAE451D0F100500C488BF /* Week 1 */ = {
+			isa = PBXGroup;
+			children = (
+				340AAE461D0F100E00C488BF /* Outlets */,
+			);
+			name = "Week 1";
+			sourceTree = "<group>";
+		};
+		340AAE461D0F100E00C488BF /* Outlets */ = {
+			isa = PBXGroup;
+			children = (
+				340AAE471D0F108300C488BF /* WhatAreProperties */,
+				340AAE491D0F152500C488BF /* CatViewController.h */,
+				340AAE4A1D0F152500C488BF /* CatViewController.m */,
+				340AAE4C1D0F231500C488BF /* DogViewController.h */,
+				340AAE4D1D0F231500C488BF /* DogViewController.m */,
+			);
+			name = Outlets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +162,7 @@
 			files = (
 				340AAE3E1D0F09AB00C488BF /* LaunchScreen.storyboard in Resources */,
 				340AAE3B1D0F09AB00C488BF /* Assets.xcassets in Resources */,
+				340AAE481D0F108300C488BF /* WhatAreProperties in Resources */,
 				340AAE391D0F09AB00C488BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,9 +174,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				340AAE361D0F09AA00C488BF /* ViewController.m in Sources */,
+				340AAE4B1D0F152500C488BF /* CatViewController.m in Sources */,
 				340AAE331D0F09AA00C488BF /* AppDelegate.m in Sources */,
 				340AAE301D0F09AA00C488BF /* main.m in Sources */,
+				340AAE4E1D0F231500C488BF /* DogViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
