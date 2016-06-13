@@ -20,6 +20,7 @@ Using Storyboard connect the outlets to their corresponding controls
 Add an IBAction in the ViewController.m file and call it "submitButtonClicked".
 Connect the "submitButtonClicked" action to the "Touch Up Inside" event of the button control.
 Inside the submitButtonClicked method paste the following code:
+```
 NSString *firstName = self.firstNameTextField.text;
 NSString *lastName = self.lastNameTextField.text;
 
@@ -32,4 +33,5 @@ UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Message
 }]];
 
 [self presentViewController:alert animated:YES completion:nil];
+```
 If you have made all the outlet and action connections correctly you should see an alert box displays the first name and the last name you entered in the text fields.
