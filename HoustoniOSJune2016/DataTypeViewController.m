@@ -51,6 +51,10 @@
     
     NSLog(@"%@",name);
     
+    // converting from double to NSString
+    double result = 234.56;
+    NSString *resultString = [NSString stringWithFormat:@"%f",result];
+    
 }
 
 -(void) sayHello:(NSString *) name {
