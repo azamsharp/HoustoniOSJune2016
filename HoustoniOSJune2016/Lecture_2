@@ -7,6 +7,10 @@ Slack: iosstack-friends
 
 Enable Viewing of Hidden Folders: defaults write com.apple.finder AppleShowAllFiles YES
 
+Resources:
+
+Objective-C Basics: https://www.youtube.com/watch?v=ERCuxUwC824
+
 
 Agenda:
 
