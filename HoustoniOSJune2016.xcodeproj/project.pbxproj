@@ -12,10 +12,15 @@
 		340AAE391D0F09AB00C488BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340AAE371D0F09AB00C488BF /* Main.storyboard */; };
 		340AAE3B1D0F09AB00C488BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340AAE3A1D0F09AB00C488BF /* Assets.xcassets */; };
 		340AAE3E1D0F09AB00C488BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340AAE3C1D0F09AB00C488BF /* LaunchScreen.storyboard */; };
-		340AAE481D0F108300C488BF /* WhatAreProperties in Resources */ = {isa = PBXBuildFile; fileRef = 340AAE471D0F108300C488BF /* WhatAreProperties */; };
+		340AAE481D0F108300C488BF /* Lecture_1 in Resources */ = {isa = PBXBuildFile; fileRef = 340AAE471D0F108300C488BF /* Lecture_1 */; };
 		340AAE4B1D0F152500C488BF /* CatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AAE4A1D0F152500C488BF /* CatViewController.m */; };
 		340AAE4E1D0F231500C488BF /* DogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AAE4D1D0F231500C488BF /* DogViewController.m */; };
 		340AAE501D0F346400C488BF /* Assignment1 in Resources */ = {isa = PBXBuildFile; fileRef = 340AAE4F1D0F346400C488BF /* Assignment1 */; };
+		34E0EB3D1D1042730044B669 /* Lecture_2 in Resources */ = {isa = PBXBuildFile; fileRef = 34E0EB3C1D1042730044B669 /* Lecture_2 */; };
+		34E0EB631D1053270044B669 /* DataTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E0EB621D1053270044B669 /* DataTypeViewController.m */; };
+		34E0EB661D105D440044B669 /* MethodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E0EB651D105D440044B669 /* MethodsViewController.m */; };
+		34E0EB6C1D10668C0044B669 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E0EB6B1D10668C0044B669 /* Dog.m */; };
+		34E0EB6F1D1067070044B669 /* DogClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E0EB6E1D1067070044B669 /* DogClassViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,12 +32,21 @@
 		340AAE3A1D0F09AB00C488BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		340AAE3D1D0F09AB00C488BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		340AAE3F1D0F09AB00C488BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		340AAE471D0F108300C488BF /* WhatAreProperties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WhatAreProperties; sourceTree = "<group>"; };
+		340AAE471D0F108300C488BF /* Lecture_1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lecture_1; sourceTree = "<group>"; };
 		340AAE491D0F152500C488BF /* CatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatViewController.h; sourceTree = "<group>"; };
 		340AAE4A1D0F152500C488BF /* CatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatViewController.m; sourceTree = "<group>"; };
 		340AAE4C1D0F231500C488BF /* DogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogViewController.h; sourceTree = "<group>"; };
 		340AAE4D1D0F231500C488BF /* DogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogViewController.m; sourceTree = "<group>"; };
 		340AAE4F1D0F346400C488BF /* Assignment1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Assignment1; sourceTree = "<group>"; };
+		34E0EB3C1D1042730044B669 /* Lecture_2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lecture_2; sourceTree = "<group>"; };
+		34E0EB611D1053270044B669 /* DataTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTypeViewController.h; sourceTree = "<group>"; };
+		34E0EB621D1053270044B669 /* DataTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTypeViewController.m; sourceTree = "<group>"; };
+		34E0EB641D105D440044B669 /* MethodsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodsViewController.h; sourceTree = "<group>"; };
+		34E0EB651D105D440044B669 /* MethodsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodsViewController.m; sourceTree = "<group>"; };
+		34E0EB6A1D10668C0044B669 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		34E0EB6B1D10668C0044B669 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		34E0EB6D1D1067070044B669 /* DogClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogClassViewController.h; sourceTree = "<group>"; };
+		34E0EB6E1D1067070044B669 /* DogClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogClassViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +102,7 @@
 		340AAE451D0F100500C488BF /* Week 1 */ = {
 			isa = PBXGroup;
 			children = (
+				34E0EB3B1D1042430044B669 /* DataTypes */,
 				340AAE461D0F100E00C488BF /* Outlets */,
 			);
 			name = "Week 1";
@@ -96,7 +111,7 @@
 		340AAE461D0F100E00C488BF /* Outlets */ = {
 			isa = PBXGroup;
 			children = (
-				340AAE471D0F108300C488BF /* WhatAreProperties */,
+				340AAE471D0F108300C488BF /* Lecture_1 */,
 				340AAE491D0F152500C488BF /* CatViewController.h */,
 				340AAE4A1D0F152500C488BF /* CatViewController.m */,
 				340AAE4C1D0F231500C488BF /* DogViewController.h */,
@@ -104,6 +119,22 @@
 				340AAE4F1D0F346400C488BF /* Assignment1 */,
 			);
 			name = Outlets;
+			sourceTree = "<group>";
+		};
+		34E0EB3B1D1042430044B669 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				34E0EB3C1D1042730044B669 /* Lecture_2 */,
+				34E0EB611D1053270044B669 /* DataTypeViewController.h */,
+				34E0EB621D1053270044B669 /* DataTypeViewController.m */,
+				34E0EB641D105D440044B669 /* MethodsViewController.h */,
+				34E0EB651D105D440044B669 /* MethodsViewController.m */,
+				34E0EB6A1D10668C0044B669 /* Dog.h */,
+				34E0EB6B1D10668C0044B669 /* Dog.m */,
+				34E0EB6D1D1067070044B669 /* DogClassViewController.h */,
+				34E0EB6E1D1067070044B669 /* DogClassViewController.m */,
+			);
+			name = DataTypes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,10 +194,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34E0EB3D1D1042730044B669 /* Lecture_2 in Resources */,
 				340AAE501D0F346400C488BF /* Assignment1 in Resources */,
 				340AAE3E1D0F09AB00C488BF /* LaunchScreen.storyboard in Resources */,
 				340AAE3B1D0F09AB00C488BF /* Assets.xcassets in Resources */,
-				340AAE481D0F108300C488BF /* WhatAreProperties in Resources */,
+				340AAE481D0F108300C488BF /* Lecture_1 in Resources */,
 				340AAE391D0F09AB00C488BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,8 +212,12 @@
 			files = (
 				340AAE4B1D0F152500C488BF /* CatViewController.m in Sources */,
 				340AAE331D0F09AA00C488BF /* AppDelegate.m in Sources */,
+				34E0EB6F1D1067070044B669 /* DogClassViewController.m in Sources */,
 				340AAE301D0F09AA00C488BF /* main.m in Sources */,
+				34E0EB661D105D440044B669 /* MethodsViewController.m in Sources */,
+				34E0EB6C1D10668C0044B669 /* Dog.m in Sources */,
 				340AAE4E1D0F231500C488BF /* DogViewController.m in Sources */,
+				34E0EB631D1053270044B669 /* DataTypeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +368,7 @@
 				340AAE441D0F09AB00C488BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

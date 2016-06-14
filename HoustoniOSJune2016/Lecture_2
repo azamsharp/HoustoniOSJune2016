@@ -1,0 +1,100 @@
+
+Houston iPhone Meetup June 21 2016
+
+- http://www.meetup.com/Houston-iPhone-Developers-Meetup/ (WWDC 2016 Review)
+
+Slack: iosstack-friends
+
+Enable Viewing of Hidden Folders: defaults write com.apple.finder AppleShowAllFiles YES
+
+
+Agenda:
+
+- Homework Review (Github)
+- Storyboard changes in iOS 10 (no zooming required) (DO NOT UPGRADE)
+- Course outline changes to reflect the important items discussed at WWDC
+
+- Data Types
+- Strings
+- Methods
+
+
+Person:
+
+FirstName  : John
+LastName  : Doe
+Height : 5:11
+Weigth : 170 lbs
+age : 23
+NoOfKids: 4
+
+Primitive Types:
+Int : -limit (whole) ------- +(limit)
+double, float : 9.75, 2.33, -2.11, 2.0, 2  (They have limits)
+bool YES, NO or true/false
+- Stack in most languages
+
+int val = 9.75
+val = 9
+
+
+Reference:
+String -> alphnumeric. "John", "Doe", "Hello 123"
+-- stored heap
+
+
+In OBj-C
+String = NSString (What is NS) -> NS = NExt Step
+
+
+
+Classes and Objects:
+
+
+Dog
+
+furry : kind of furr
+animal
+type : DogType1
+
+
+// actions
+bark()
+sleep()
+eat()
+
+
+
+
+BaseballPlayer:
+
+FirstName
+LastName
+MiddleName
+Height
+Weight
+SSN
+
+sleep()
+eat()
+run()
+swim()
+
+
+
+Ferrari : Car
+
+// if I dont call super when init
+
+
+
+
+
+
+
+
+
+
+
+
+
