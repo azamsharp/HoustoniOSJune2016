@@ -16,7 +16,17 @@
                     <view key="view" contentMode="scaleToFill" id="Bil-A9-BDF">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3nn-al-Mgy">
+                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3nn-al-Mgy" firstAttribute="centerY" secondItem="Bil-A9-BDF" secondAttribute="centerY" id="awZ-1k-hHn"/>
+                            <constraint firstItem="3nn-al-Mgy" firstAttribute="centerX" secondItem="Bil-A9-BDF" secondAttribute="centerX" id="nBm-F6-vnW"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gzg-JP-ora" userLabel="First Responder" sceneMemberID="firstResponder"/>

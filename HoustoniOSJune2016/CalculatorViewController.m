@@ -1,49 +1,41 @@
 //
-//  DogClassViewController.m
+//  CalculatorViewController.m
 //  HoustoniOSJune2016
 //
 //  Created by Mohammad Azam on 6/14/16.
 //  Copyright © 2016 Mohammad Azam. All rights reserved.
 //
 
-#import "DogClassViewController.h"
+#import "CalculatorViewController.h"
 
-@interface DogClassViewController ()
-
+@interface CalculatorViewController ()
+{
+    
+}
 @end
 
-@implementation DogClassViewController
+@implementation CalculatorViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    Dog *dog = [[Dog alloc] init];
-    dog.name = @"Some Dog Name";
-    dog.age = 12;
-    
-    Dog *anotherDog = [[Dog alloc] init];
-    anotherDog.name = @"Another Dog";
-    anotherDog.age = 5;
-    
-    Dog *someOtherDog = [[Dog alloc] initWithName:@"Some Other Dog Name"];
-    
 }
-
--(IBAction) buttonPressed:(UIButton *) button {
-    
-    // 2 + 5
-    
-    
-    NSString *value =  button.titleLabel.text; // 1,2... 9  +, -, *, %
-    
-}
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+-(IBAction) add {
+    
+   // double firstNumber = [self.firstNumberTextField.text doubleValue];
+}
+
+-(IBAction) subtract {
+    
+}
+
 
 /*
 #pragma mark - Navigation

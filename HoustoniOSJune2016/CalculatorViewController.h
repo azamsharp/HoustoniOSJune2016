@@ -1,5 +1,5 @@
 //
-//  DataTypeViewController.h
+//  CalculatorViewController.h
 //  HoustoniOSJune2016
 //
 //  Created by Mohammad Azam on 6/14/16.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DataTypeViewController : UIViewController
+@interface CalculatorViewController : UIViewController
 {
-    
+    double _firstValue;
+    double _secondValue;
 }
 @end

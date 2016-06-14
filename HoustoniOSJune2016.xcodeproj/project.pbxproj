@@ -16,6 +16,7 @@
 		340AAE4B1D0F152500C488BF /* CatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AAE4A1D0F152500C488BF /* CatViewController.m */; };
 		340AAE4E1D0F231500C488BF /* DogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AAE4D1D0F231500C488BF /* DogViewController.m */; };
 		340AAE501D0F346400C488BF /* Assignment1 in Resources */ = {isa = PBXBuildFile; fileRef = 340AAE4F1D0F346400C488BF /* Assignment1 */; };
+		34883D331D108B7300F39A03 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34883D321D108B7300F39A03 /* CalculatorViewController.m */; };
 		34E0EB3D1D1042730044B669 /* Lecture_2 in Resources */ = {isa = PBXBuildFile; fileRef = 34E0EB3C1D1042730044B669 /* Lecture_2 */; };
 		34E0EB631D1053270044B669 /* DataTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E0EB621D1053270044B669 /* DataTypeViewController.m */; };
 		34E0EB661D105D440044B669 /* MethodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E0EB651D105D440044B669 /* MethodsViewController.m */; };
@@ -38,6 +39,8 @@
 		340AAE4C1D0F231500C488BF /* DogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogViewController.h; sourceTree = "<group>"; };
 		340AAE4D1D0F231500C488BF /* DogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogViewController.m; sourceTree = "<group>"; };
 		340AAE4F1D0F346400C488BF /* Assignment1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Assignment1; sourceTree = "<group>"; };
+		34883D311D108B7300F39A03 /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		34883D321D108B7300F39A03 /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
 		34E0EB3C1D1042730044B669 /* Lecture_2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lecture_2; sourceTree = "<group>"; };
 		34E0EB611D1053270044B669 /* DataTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTypeViewController.h; sourceTree = "<group>"; };
 		34E0EB621D1053270044B669 /* DataTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTypeViewController.m; sourceTree = "<group>"; };
@@ -133,6 +136,8 @@
 				34E0EB6B1D10668C0044B669 /* Dog.m */,
 				34E0EB6D1D1067070044B669 /* DogClassViewController.h */,
 				34E0EB6E1D1067070044B669 /* DogClassViewController.m */,
+				34883D311D108B7300F39A03 /* CalculatorViewController.h */,
+				34883D321D108B7300F39A03 /* CalculatorViewController.m */,
 			);
 			name = DataTypes;
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 				34E0EB6C1D10668C0044B669 /* Dog.m in Sources */,
 				340AAE4E1D0F231500C488BF /* DogViewController.m in Sources */,
 				34E0EB631D1053270044B669 /* DataTypeViewController.m in Sources */,
+				34883D331D108B7300F39A03 /* CalculatorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
