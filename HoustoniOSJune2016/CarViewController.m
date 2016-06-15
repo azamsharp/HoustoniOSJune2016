@@ -18,16 +18,26 @@
     
     [super viewDidLoad];
     
-    double miles = 20;
+    // Classes and Objects
+    // [ClassName] [instance name] = [Class Name memoryalloc] initializer]
     
-    NSString *someString = [self start: miles turbo: YES] ;
+    Truck *redTruck = [[Truck alloc] init];
+    redTruck.color = @"Red";
+    
+    Car *honda = [[Car alloc] init];
+    
+    NSLog(@"");
+    
+//    double miles = 20;
+//    
+//    NSString *someString = [self start: miles turbo: YES] ;
     
     //[DataType] [variable Name] = [Initial Value];
-}
+//}
 
-- (NSString*) start: (double) miles turbo:(BOOL) turbo {
-    return @"Hello World";
-    
+//- (NSString*) start: (double) miles turbo:(BOOL) turbo {
+//    return @"Hello World";
+//    
 }
 
 - (void)didReceiveMemoryWarning {

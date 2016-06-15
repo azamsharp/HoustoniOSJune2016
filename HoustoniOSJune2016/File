@@ -1,0 +1,44 @@
+
+
+Classes:
+
+Truck:
+Color  (String)
+MPG   (double)
+Engine Type  (string)
+Make   (string)
+Model  (string)
+
+// not the syntax
+
+[DataType] [Variable Name] = [Initial Value]
+
+Truck yellowTruck = Truck(); // if your parent class is NSObject
+Truck yellowTruck = Truck(@"Yellow" make:@"Ford" model:@"ModelA");
+
+//yellowTruck.Color = @"Yellow";
+//yellowTruck.Make = @"Ford"
+//yellowTruck.Model = "Model A"
+
+Truck redTruck = Truck()
+redTruck.Color = @"Red";
+redTruck.Make = @"Ford"
+redTruck.Model = "Model B"
+
+Car:
+
+Color
+MPG
+Engine Type
+Make
+Model
+
+FordTruckColor
+FordTruckMPG
+FordTruckEngineType
+FordTruckMake
+FordTruckModel
+
+
+
+

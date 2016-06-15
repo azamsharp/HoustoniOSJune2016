@@ -1,15 +1,15 @@
 //
-//  CarViewController.h
+//  Truck.m
 //  HoustoniOSJune2016
 //
 //  Created by Mohammad Azam on 6/15/16.
 //  Copyright © 2016 Mohammad Azam. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "Truck.h"
-#import "Car.h" 
 
-@interface CarViewController : UIViewController
+@implementation Truck
+
+
 
 @end

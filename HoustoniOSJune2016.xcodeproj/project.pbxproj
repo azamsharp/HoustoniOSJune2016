@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3404B43E1D11A00700EFAF69 /* CarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404B43D1D11A00700EFAF69 /* CarViewController.m */; };
+		3404B4401D11A64100EFAF69 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 3404B43F1D11A64100EFAF69 /* File */; };
+		3404B4431D11A9A600EFAF69 /* Truck.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404B4421D11A9A600EFAF69 /* Truck.m */; };
+		3404B4461D11AF1600EFAF69 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404B4451D11AF1600EFAF69 /* Car.m */; };
 		340AAE301D0F09AA00C488BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AAE2F1D0F09AA00C488BF /* main.m */; };
 		340AAE331D0F09AA00C488BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AAE321D0F09AA00C488BF /* AppDelegate.m */; };
 		340AAE391D0F09AB00C488BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340AAE371D0F09AB00C488BF /* Main.storyboard */; };
@@ -28,6 +31,11 @@
 /* Begin PBXFileReference section */
 		3404B43C1D11A00700EFAF69 /* CarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarViewController.h; sourceTree = "<group>"; };
 		3404B43D1D11A00700EFAF69 /* CarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarViewController.m; sourceTree = "<group>"; };
+		3404B43F1D11A64100EFAF69 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
+		3404B4411D11A9A600EFAF69 /* Truck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Truck.h; sourceTree = "<group>"; };
+		3404B4421D11A9A600EFAF69 /* Truck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Truck.m; sourceTree = "<group>"; };
+		3404B4441D11AF1600EFAF69 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		3404B4451D11AF1600EFAF69 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		340AAE2B1D0F09AA00C488BF /* HoustoniOSJune2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoustoniOSJune2016.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		340AAE2F1D0F09AA00C488BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		340AAE311D0F09AA00C488BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -133,6 +141,11 @@
 			children = (
 				3404B43C1D11A00700EFAF69 /* CarViewController.h */,
 				3404B43D1D11A00700EFAF69 /* CarViewController.m */,
+				3404B43F1D11A64100EFAF69 /* File */,
+				3404B4411D11A9A600EFAF69 /* Truck.h */,
+				3404B4421D11A9A600EFAF69 /* Truck.m */,
+				3404B4441D11AF1600EFAF69 /* Car.h */,
+				3404B4451D11AF1600EFAF69 /* Car.m */,
 			);
 			name = ClassesAndObjects;
 			sourceTree = "<group>";
@@ -214,6 +227,7 @@
 			files = (
 				34E0EB3D1D1042730044B669 /* Lecture_2 in Resources */,
 				340AAE501D0F346400C488BF /* Assignment1 in Resources */,
+				3404B4401D11A64100EFAF69 /* File in Resources */,
 				340AAE3E1D0F09AB00C488BF /* LaunchScreen.storyboard in Resources */,
 				340AAE3B1D0F09AB00C488BF /* Assets.xcassets in Resources */,
 				340AAE481D0F108300C488BF /* Lecture_1 in Resources */,
@@ -234,10 +248,12 @@
 				34E0EB6F1D1067070044B669 /* DogClassViewController.m in Sources */,
 				340AAE301D0F09AA00C488BF /* main.m in Sources */,
 				34E0EB661D105D440044B669 /* MethodsViewController.m in Sources */,
+				3404B4461D11AF1600EFAF69 /* Car.m in Sources */,
 				34E0EB6C1D10668C0044B669 /* Dog.m in Sources */,
 				340AAE4E1D0F231500C488BF /* DogViewController.m in Sources */,
 				34E0EB631D1053270044B669 /* DataTypeViewController.m in Sources */,
 				34883D331D108B7300F39A03 /* CalculatorViewController.m in Sources */,
+				3404B4431D11A9A600EFAF69 /* Truck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
