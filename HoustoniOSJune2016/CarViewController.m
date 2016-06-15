@@ -21,10 +21,17 @@
     // Classes and Objects
     // [ClassName] [instance name] = [Class Name memoryalloc] initializer]
     
-    Truck *redTruck = [[Truck alloc] init];
-    redTruck.color = @"Red";
+    Truck *redTruck= [[Truck alloc] initWithColor:@"Red"];
     
-    Car *honda = [[Car alloc] init];
+    Truck *blueTruck = [[Truck alloc] init];
+    blueTruck.color = @"Blue";
+    
+    //redTruck.color = @"Red";
+    
+    //Ferrari *ferrari = [[Ferrari alloc] init];
+    //ferrari.isTurbo = YES;
+    
+   // Car *honda = [[Car alloc] init];
     
     NSLog(@"");
     

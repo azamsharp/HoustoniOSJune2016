@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Car.h"
 
-@interface Truck : NSObject
+@interface Truck : Car
 {
     
 }
+
+-(instancetype) initWithColor:(NSString *) color;
 
 @property (nonatomic,copy) NSString *color;
 

@@ -10,6 +10,14 @@
 
 @implementation Truck
 
-
+-(instancetype) initWithColor:(NSString *)color {
+    
+    self = [super init];
+    
+    self.color = color;
+    
+    return self; 
+    
+}
 
 @end
