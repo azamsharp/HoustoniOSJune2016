@@ -26,6 +26,23 @@
     Truck *blueTruck = [[Truck alloc] init];
     blueTruck.color = @"Blue";
     
+    int age = 10;
+    int height = 5;
+    
+    // for equality you can use ==
+    // greater than >
+    // less than <
+    // greater than or equal to >=
+    // less than or equal to <=
+    // And is represented by &&
+    // Or is represented by ||
+    
+    if(age == 10 && height > 4) {
+        
+        NSLog(@"too young");
+        NSLog(@"no");
+    }
+    
     //redTruck.color = @"Red";
     
     //Ferrari *ferrari = [[Ferrari alloc] init];

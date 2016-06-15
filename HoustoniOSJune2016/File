@@ -40,5 +40,34 @@ FordTruckMake
 FordTruckModel
 
 
+// Conditional Flow
+
+int age = 12
+
+if age <= 13
+ print ("too young")
+else if age <= 16
+    print("still too young")
+
+////
+
+//if age <= 16
+// print("still too young")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
