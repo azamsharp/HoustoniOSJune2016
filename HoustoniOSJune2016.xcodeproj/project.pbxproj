@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3404B43E1D11A00700EFAF69 /* CarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404B43D1D11A00700EFAF69 /* CarViewController.m */; };
 		340AAE301D0F09AA00C488BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AAE2F1D0F09AA00C488BF /* main.m */; };
 		340AAE331D0F09AA00C488BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AAE321D0F09AA00C488BF /* AppDelegate.m */; };
 		340AAE391D0F09AB00C488BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340AAE371D0F09AB00C488BF /* Main.storyboard */; };
@@ -25,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3404B43C1D11A00700EFAF69 /* CarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarViewController.h; sourceTree = "<group>"; };
+		3404B43D1D11A00700EFAF69 /* CarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarViewController.m; sourceTree = "<group>"; };
 		340AAE2B1D0F09AA00C488BF /* HoustoniOSJune2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoustoniOSJune2016.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		340AAE2F1D0F09AA00C488BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		340AAE311D0F09AA00C488BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,7 @@
 		340AAE451D0F100500C488BF /* Week 1 */ = {
 			isa = PBXGroup;
 			children = (
+				341562B31D119C3700A6396A /* ClassesAndObjects */,
 				34E0EB3B1D1042430044B669 /* DataTypes */,
 				340AAE461D0F100E00C488BF /* Outlets */,
 			);
@@ -122,6 +126,15 @@
 				340AAE4F1D0F346400C488BF /* Assignment1 */,
 			);
 			name = Outlets;
+			sourceTree = "<group>";
+		};
+		341562B31D119C3700A6396A /* ClassesAndObjects */ = {
+			isa = PBXGroup;
+			children = (
+				3404B43C1D11A00700EFAF69 /* CarViewController.h */,
+				3404B43D1D11A00700EFAF69 /* CarViewController.m */,
+			);
+			name = ClassesAndObjects;
 			sourceTree = "<group>";
 		};
 		34E0EB3B1D1042430044B669 /* DataTypes */ = {
@@ -216,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				340AAE4B1D0F152500C488BF /* CatViewController.m in Sources */,
+				3404B43E1D11A00700EFAF69 /* CarViewController.m in Sources */,
 				340AAE331D0F09AA00C488BF /* AppDelegate.m in Sources */,
 				34E0EB6F1D1067070044B669 /* DogClassViewController.m in Sources */,
 				340AAE301D0F09AA00C488BF /* main.m in Sources */,

@@ -29,6 +29,9 @@
 
 -(IBAction) add {
     
+    NSString *somevalue = @"23";
+    
+//    double d = [somevalue doubleValue];
    // double firstNumber = [self.firstNumberTextField.text doubleValue];
 }
 
