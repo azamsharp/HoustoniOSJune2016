@@ -29,6 +29,7 @@
 		34F5339E1D12F4EF007387E4 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F5339D1D12F4EF007387E4 /* Calculator.m */; };
 		34F533A11D12F5C5007387E4 /* ScientificCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F533A01D12F5C5007387E4 /* ScientificCalculatorViewController.m */; };
 		34F533A51D12F6BA007387E4 /* CollectionLessonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F533A41D12F6BA007387E4 /* CollectionLessonViewController.m */; };
+		34F533A91D130AB4007387E4 /* SliderControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F533A81D130AB4007387E4 /* SliderControlViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,8 @@
 		34F533A01D12F5C5007387E4 /* ScientificCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScientificCalculatorViewController.m; sourceTree = "<group>"; };
 		34F533A31D12F6BA007387E4 /* CollectionLessonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionLessonViewController.h; sourceTree = "<group>"; };
 		34F533A41D12F6BA007387E4 /* CollectionLessonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionLessonViewController.m; sourceTree = "<group>"; };
+		34F533A71D130AB4007387E4 /* SliderControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderControlViewController.h; sourceTree = "<group>"; };
+		34F533A81D130AB4007387E4 /* SliderControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderControlViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,7 @@
 		340AAE451D0F100500C488BF /* Week 1 */ = {
 			isa = PBXGroup;
 			children = (
+				34F533A61D130AA0007387E4 /* Controls */,
 				34F533A21D12F69B007387E4 /* Collections */,
 				34F533941D12E948007387E4 /* Assignments */,
 				341562B31D119C3700A6396A /* ClassesAndObjects */,
@@ -205,6 +209,15 @@
 				34F533A41D12F6BA007387E4 /* CollectionLessonViewController.m */,
 			);
 			name = Collections;
+			sourceTree = "<group>";
+		};
+		34F533A61D130AA0007387E4 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				34F533A71D130AB4007387E4 /* SliderControlViewController.h */,
+				34F533A81D130AB4007387E4 /* SliderControlViewController.m */,
+			);
+			name = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +305,7 @@
 				34E0EB661D105D440044B669 /* MethodsViewController.m in Sources */,
 				3404B4461D11AF1600EFAF69 /* Car.m in Sources */,
 				34E0EB6C1D10668C0044B669 /* Dog.m in Sources */,
+				34F533A91D130AB4007387E4 /* SliderControlViewController.m in Sources */,
 				340AAE4E1D0F231500C488BF /* DogViewController.m in Sources */,
 				34E0EB631D1053270044B669 /* DataTypeViewController.m in Sources */,
 				3404B4431D11A9A600EFAF69 /* Truck.m in Sources */,

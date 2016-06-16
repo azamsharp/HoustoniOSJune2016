@@ -1,10 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Z0n-nO-egW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bBK-bh-W2x">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--Slider Control View Controller-->
+        <scene sceneID="AmN-yJ-cyc">
+            <objects>
+                <viewController id="bBK-bh-W2x" customClass="SliderControlViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ASE-0W-YEj"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nnz-2A-MZZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0ni-so-9Zm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="24g-e1-h1W">
+                                <rect key="frame" x="18" y="285" width="564" height="31"/>
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="bBK-bh-W2x" eventType="valueChanged" id="rvS-xU-r2w"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="24g-e1-h1W" firstAttribute="centerY" secondItem="0ni-so-9Zm" secondAttribute="centerY" id="3hX-kd-nIQ"/>
+                            <constraint firstItem="24g-e1-h1W" firstAttribute="trailing" secondItem="0ni-so-9Zm" secondAttribute="trailingMargin" id="EYU-dP-fec"/>
+                            <constraint firstItem="24g-e1-h1W" firstAttribute="leading" secondItem="0ni-so-9Zm" secondAttribute="leadingMargin" id="zcP-uB-Oq4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="slider" destination="24g-e1-h1W" id="lIb-QE-YK6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4YE-DI-jY0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1018" y="-1530"/>
+        </scene>
         <!--Collection Lesson View Controller-->
         <scene sceneID="rQm-NK-s6i">
             <objects>
