@@ -28,6 +28,7 @@
 		34F5339B1D12EA05007387E4 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F5339A1D12EA05007387E4 /* CalculatorViewController.m */; };
 		34F5339E1D12F4EF007387E4 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F5339D1D12F4EF007387E4 /* Calculator.m */; };
 		34F533A11D12F5C5007387E4 /* ScientificCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F533A01D12F5C5007387E4 /* ScientificCalculatorViewController.m */; };
+		34F533A51D12F6BA007387E4 /* CollectionLessonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F533A41D12F6BA007387E4 /* CollectionLessonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,8 @@
 		34F5339D1D12F4EF007387E4 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		34F5339F1D12F5C5007387E4 /* ScientificCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScientificCalculatorViewController.h; sourceTree = "<group>"; };
 		34F533A01D12F5C5007387E4 /* ScientificCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScientificCalculatorViewController.m; sourceTree = "<group>"; };
+		34F533A31D12F6BA007387E4 /* CollectionLessonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionLessonViewController.h; sourceTree = "<group>"; };
+		34F533A41D12F6BA007387E4 /* CollectionLessonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionLessonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,7 @@
 		340AAE451D0F100500C488BF /* Week 1 */ = {
 			isa = PBXGroup;
 			children = (
+				34F533A21D12F69B007387E4 /* Collections */,
 				34F533941D12E948007387E4 /* Assignments */,
 				341562B31D119C3700A6396A /* ClassesAndObjects */,
 				34E0EB3B1D1042430044B669 /* DataTypes */,
@@ -192,6 +196,15 @@
 				34F533A01D12F5C5007387E4 /* ScientificCalculatorViewController.m */,
 			);
 			name = Calculator;
+			sourceTree = "<group>";
+		};
+		34F533A21D12F69B007387E4 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				34F533A31D12F6BA007387E4 /* CollectionLessonViewController.h */,
+				34F533A41D12F6BA007387E4 /* CollectionLessonViewController.m */,
+			);
+			name = Collections;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				340AAE4B1D0F152500C488BF /* CatViewController.m in Sources */,
+				34F533A51D12F6BA007387E4 /* CollectionLessonViewController.m in Sources */,
 				34F533A11D12F5C5007387E4 /* ScientificCalculatorViewController.m in Sources */,
 				3404B43E1D11A00700EFAF69 /* CarViewController.m in Sources */,
 				34F5339B1D12EA05007387E4 /* CalculatorViewController.m in Sources */,
