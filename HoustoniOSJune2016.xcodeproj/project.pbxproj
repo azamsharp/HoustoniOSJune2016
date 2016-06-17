@@ -20,6 +20,7 @@
 		340AAE4B1D0F152500C488BF /* CatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AAE4A1D0F152500C488BF /* CatViewController.m */; };
 		340AAE4E1D0F231500C488BF /* DogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AAE4D1D0F231500C488BF /* DogViewController.m */; };
 		340AAE501D0F346400C488BF /* Assignment1 in Resources */ = {isa = PBXBuildFile; fileRef = 340AAE4F1D0F346400C488BF /* Assignment1 */; };
+		343D318D1D144A500005C301 /* RW-Objective-C-Cheatsheet-v-1-5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 343D318C1D144A500005C301 /* RW-Objective-C-Cheatsheet-v-1-5.pdf */; };
 		34E0EB3D1D1042730044B669 /* Lecture_2 in Resources */ = {isa = PBXBuildFile; fileRef = 34E0EB3C1D1042730044B669 /* Lecture_2 */; };
 		34E0EB631D1053270044B669 /* DataTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E0EB621D1053270044B669 /* DataTypeViewController.m */; };
 		34E0EB661D105D440044B669 /* MethodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E0EB651D105D440044B669 /* MethodsViewController.m */; };
@@ -54,6 +55,7 @@
 		340AAE4C1D0F231500C488BF /* DogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogViewController.h; sourceTree = "<group>"; };
 		340AAE4D1D0F231500C488BF /* DogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogViewController.m; sourceTree = "<group>"; };
 		340AAE4F1D0F346400C488BF /* Assignment1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Assignment1; sourceTree = "<group>"; };
+		343D318C1D144A500005C301 /* RW-Objective-C-Cheatsheet-v-1-5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "RW-Objective-C-Cheatsheet-v-1-5.pdf"; sourceTree = "<group>"; };
 		34E0EB3C1D1042730044B669 /* Lecture_2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lecture_2; sourceTree = "<group>"; };
 		34E0EB611D1053270044B669 /* DataTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTypeViewController.h; sourceTree = "<group>"; };
 		34E0EB621D1053270044B669 /* DataTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTypeViewController.m; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		340AAE2D1D0F09AA00C488BF /* HoustoniOSJune2016 */ = {
 			isa = PBXGroup;
 			children = (
+				343D318B1D144A3F0005C301 /* Resources */,
 				340AAE451D0F100500C488BF /* Week 1 */,
 				340AAE311D0F09AA00C488BF /* AppDelegate.h */,
 				340AAE321D0F09AA00C488BF /* AppDelegate.m */,
@@ -163,6 +166,14 @@
 				3404B4451D11AF1600EFAF69 /* Car.m */,
 			);
 			name = ClassesAndObjects;
+			sourceTree = "<group>";
+		};
+		343D318B1D144A3F0005C301 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				343D318C1D144A500005C301 /* RW-Objective-C-Cheatsheet-v-1-5.pdf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		34E0EB3B1D1042430044B669 /* DataTypes */ = {
@@ -279,6 +290,7 @@
 			files = (
 				34E0EB3D1D1042730044B669 /* Lecture_2 in Resources */,
 				340AAE501D0F346400C488BF /* Assignment1 in Resources */,
+				343D318D1D144A500005C301 /* RW-Objective-C-Cheatsheet-v-1-5.pdf in Resources */,
 				3404B4401D11A64100EFAF69 /* File in Resources */,
 				340AAE3E1D0F09AB00C488BF /* LaunchScreen.storyboard in Resources */,
 				340AAE3B1D0F09AB00C488BF /* Assets.xcassets in Resources */,
