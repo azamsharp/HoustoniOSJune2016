@@ -37,7 +37,7 @@
 
 -(IBAction) sliderValueChanged:(id) sender {
     
-    int value = (int) self.slider.value;
+   // int value = (int) self.slider.value;
     
     NSLog(@"%d",(int) self.slider.value);
     

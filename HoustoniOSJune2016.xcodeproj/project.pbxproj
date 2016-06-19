@@ -107,6 +107,7 @@
 		340AAE2D1D0F09AA00C488BF /* HoustoniOSJune2016 */ = {
 			isa = PBXGroup;
 			children = (
+				34C0C6801D165050001988B1 /* Week 2 */,
 				343D318B1D144A3F0005C301 /* Resources */,
 				340AAE451D0F100500C488BF /* Week 1 */,
 				340AAE311D0F09AA00C488BF /* AppDelegate.h */,
@@ -174,6 +175,13 @@
 				343D318C1D144A500005C301 /* RW-Objective-C-Cheatsheet-v-1-5.pdf */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		34C0C6801D165050001988B1 /* Week 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Week 2";
 			sourceTree = "<group>";
 		};
 		34E0EB3B1D1042430044B669 /* DataTypes */ = {
@@ -435,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = HoustoniOSJune2016/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.theironyard.houston.HoustoniOSJune2016;
@@ -446,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = HoustoniOSJune2016/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.theironyard.houston.HoustoniOSJune2016;

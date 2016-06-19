@@ -26,7 +26,7 @@
     anotherDog.name = @"Another Dog";
     anotherDog.age = 5;
     
-    Dog *someOtherDog = [[Dog alloc] initWithName:@"Some Other Dog Name"];
+    //Dog *someOtherDog = [[Dog alloc] initWithName:@"Some Other Dog Name"];
     
 }
 
@@ -35,7 +35,7 @@
     // 2 + 5
     
     
-    NSString *value =  button.titleLabel.text; // 1,2... 9  +, -, *, %
+  //  NSString *value =  button.titleLabel.text; // 1,2... 9  +, -, *, %
     
 }
 

@@ -21,7 +21,7 @@
     
     [self printGreeting:@"Android" allTheStudentsInMyClass:23];
     
-    double tip = [self calculateTip:100 tipPercentage:10];
+   // double tip = [self calculateTip:100 tipPercentage:10];
     
     
 }

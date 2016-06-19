@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    CalculatorViewController *viewController = [[CalculatorViewController alloc] init];
+    //CalculatorViewController *viewController = [[CalculatorViewController alloc] init];
     
     //viewController._cal
     

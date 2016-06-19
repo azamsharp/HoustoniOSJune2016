@@ -32,7 +32,7 @@
     // NSArray *alphabets = [[NSArray alloc] init];
     
     // Create array with elements
-    NSArray *alphabets = [NSArray arrayWithObjects:@"A",@"B",@"C", nil];
+    //NSArray *alphabets = [NSArray arrayWithObjects:@"A",@"B",@"C", nil];
     
     // NSMutableArray
     

@@ -21,7 +21,7 @@
     // Classes and Objects
     // [ClassName] [instance name] = [Class Name memoryalloc] initializer]
     
-    Truck *redTruck= [[Truck alloc] initWithColor:@"Red"];
+    //Truck *redTruck= [[Truck alloc] initWithColor:@"Red"];
     
     Truck *blueTruck = [[Truck alloc] init];
     blueTruck.color = @"Blue";

@@ -18,12 +18,12 @@
    
     [super viewDidLoad];
     
-    int no = 25;
+   // int no = 25;
     
     double balance = 10.34;
     balance = 12.23;
-    float someValue = 12.34;
-    bool isCompleted = YES;
+   // float someValue = 12.34;
+   // bool isCompleted = YES;
     
     // NSString
     
@@ -33,7 +33,7 @@
     
     int numberIntValue = number.intValue;
     
-    double numberDoubleValue = number.doubleValue;
+  //  double numberDoubleValue = number.doubleValue;
     
     NSLog(@"%d",numberIntValue + 20);
     
@@ -52,8 +52,8 @@
     NSLog(@"%@",name);
     
     // converting from double to NSString
-    double result = 234.56;
-    NSString *resultString = [NSString stringWithFormat:@"%f",result];
+   // double result = 234.56;
+ //   NSString *resultString = [NSString stringWithFormat:@"%f",result];
     
 }
 
