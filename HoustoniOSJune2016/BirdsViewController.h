@@ -12,4 +12,6 @@
 
 @interface BirdsViewController : UIViewController<UITextFieldDelegate>
 
+@property (nonatomic,weak) IBOutlet UISwitch *mySwitch;
+
 @end

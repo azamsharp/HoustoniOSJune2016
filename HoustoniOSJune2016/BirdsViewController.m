@@ -10,6 +10,7 @@
 
 
 
+
 @implementation BirdsViewController
 
 -(void) viewDidLoad {
@@ -27,6 +28,16 @@
 //    
 //    [self logFlights:pelican];
 //    [self logFlights:kf];
+}
+
+- (BOOL)textField:(UITextField *)textField
+shouldChangeCharactersInRange:(NSRange)range
+replacementString:(NSString *)string {
+    
+    NSLog(@"%@",string);
+    
+    return YES;
+    
 }
 
 -(BOOL) textFieldShouldReturn:(UITextField *)textField {

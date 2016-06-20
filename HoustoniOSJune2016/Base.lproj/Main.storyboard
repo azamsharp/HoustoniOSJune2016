@@ -64,17 +64,25 @@
                                     <outlet property="delegate" destination="Z0n-nO-egW" id="PKT-XR-fXN"/>
                                 </connections>
                             </textField>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fPR-Ww-lRD">
+                                <rect key="frame" x="531" y="78" width="51" height="31"/>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="fPR-Ww-lRD" firstAttribute="trailing" secondItem="mD1-HD-A26" secondAttribute="trailingMargin" id="9KP-cp-rai"/>
                             <constraint firstItem="TDy-Yo-T2X" firstAttribute="top" secondItem="psv-Hm-nI0" secondAttribute="bottom" id="Ab2-yx-DZi"/>
+                            <constraint firstItem="fPR-Ww-lRD" firstAttribute="top" secondItem="psv-Hm-nI0" secondAttribute="bottom" constant="58" id="Uka-Zs-OXd"/>
                             <constraint firstItem="TDy-Yo-T2X" firstAttribute="centerX" secondItem="mD1-HD-A26" secondAttribute="centerX" id="sfT-9g-cSo"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mySwitch" destination="fPR-Ww-lRD" id="wFt-IY-YH4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Rt-p8-GwT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-225" y="-770"/>
+            <point key="canvasLocation" x="-225" y="-771"/>
         </scene>
         <!--Calculator View Controller-->
         <scene sceneID="dIt-H4-aub">
