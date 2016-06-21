@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Z0n-nO-egW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6g0-NS-zkN">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -39,6 +39,61 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4YE-DI-jY0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1018" y="-1530"/>
+        </scene>
+        <!--Customers Table View Controller-->
+        <scene sceneID="N8l-94-yLF">
+            <objects>
+                <tableViewController id="6g0-NS-zkN" customClass="CustomersTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Hpd-SP-9UO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomerTableViewCell" id="G3y-Fn-tt1" customClass="CustomerTableViewCell">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="G3y-Fn-tt1" id="odb-rD-Dea">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fyk-43-FpN">
+                                            <rect key="frame" x="8" y="11" width="505" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCz-rb-Rui">
+                                            <rect key="frame" x="546" y="7" width="46" height="30"/>
+                                            <color key="backgroundColor" red="1" green="0.3418370852" blue="0.32904126820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="46" id="hHN-R8-bJp"/>
+                                            </constraints>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="WCz-rb-Rui" firstAttribute="trailing" secondItem="odb-rD-Dea" secondAttribute="trailingMargin" id="0zh-n9-C4U"/>
+                                        <constraint firstItem="fyk-43-FpN" firstAttribute="centerY" secondItem="odb-rD-Dea" secondAttribute="centerY" id="70k-0T-OuY"/>
+                                        <constraint firstItem="fyk-43-FpN" firstAttribute="leading" secondItem="odb-rD-Dea" secondAttribute="leadingMargin" id="MEf-WQ-xFN"/>
+                                        <constraint firstItem="fyk-43-FpN" firstAttribute="baseline" secondItem="WCz-rb-Rui" secondAttribute="baseline" id="SSt-5h-hOJ"/>
+                                        <constraint firstItem="WCz-rb-Rui" firstAttribute="centerY" secondItem="fyk-43-FpN" secondAttribute="centerY" id="pqx-Xt-gr1"/>
+                                        <constraint firstItem="WCz-rb-Rui" firstAttribute="leading" secondItem="fyk-43-FpN" secondAttribute="trailing" constant="33" id="tJT-g1-jt6"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="messagesReceivedButton" destination="WCz-rb-Rui" id="2ki-0E-bl0"/>
+                                    <outlet property="nameLabel" destination="fyk-43-FpN" id="ETt-RB-oYW"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="6g0-NS-zkN" id="0Va-fm-d4G"/>
+                            <outlet property="delegate" destination="6g0-NS-zkN" id="78x-RN-3WH"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m34-AA-acQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1141" y="-746"/>
         </scene>
         <!--Birds View Controller-->
         <scene sceneID="rQm-NK-s6i">

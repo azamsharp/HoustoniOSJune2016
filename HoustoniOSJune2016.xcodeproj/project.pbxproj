@@ -25,6 +25,8 @@
 		346585A91D183DB800DB202B /* Kingfisher.m in Sources */ = {isa = PBXBuildFile; fileRef = 346585A81D183DB800DB202B /* Kingfisher.m */; };
 		346585AF1D183E4700DB202B /* BirdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346585AE1D183E4700DB202B /* BirdsViewController.m */; };
 		346585B21D18409D00DB202B /* LogBirdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346585B11D18409D00DB202B /* LogBirdsViewController.m */; };
+		34A84B341D19898A00FA168A /* CustomersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A84B331D19898A00FA168A /* CustomersTableViewController.m */; };
+		34A84B371D199C3700FA168A /* CustomerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A84B361D199C3700FA168A /* CustomerTableViewCell.m */; };
 		34E0EB3D1D1042730044B669 /* Lecture_2 in Resources */ = {isa = PBXBuildFile; fileRef = 34E0EB3C1D1042730044B669 /* Lecture_2 */; };
 		34E0EB631D1053270044B669 /* DataTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E0EB621D1053270044B669 /* DataTypeViewController.m */; };
 		34E0EB661D105D440044B669 /* MethodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E0EB651D105D440044B669 /* MethodsViewController.m */; };
@@ -69,6 +71,10 @@
 		346585AE1D183E4700DB202B /* BirdsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdsViewController.m; sourceTree = "<group>"; };
 		346585B01D18409D00DB202B /* LogBirdsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogBirdsViewController.h; sourceTree = "<group>"; };
 		346585B11D18409D00DB202B /* LogBirdsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogBirdsViewController.m; sourceTree = "<group>"; };
+		34A84B321D19898A00FA168A /* CustomersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomersTableViewController.h; sourceTree = "<group>"; };
+		34A84B331D19898A00FA168A /* CustomersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomersTableViewController.m; sourceTree = "<group>"; };
+		34A84B351D199C3700FA168A /* CustomerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerTableViewCell.h; sourceTree = "<group>"; };
+		34A84B361D199C3700FA168A /* CustomerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerTableViewCell.m; sourceTree = "<group>"; };
 		34E0EB3C1D1042730044B669 /* Lecture_2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lecture_2; sourceTree = "<group>"; };
 		34E0EB611D1053270044B669 /* DataTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTypeViewController.h; sourceTree = "<group>"; };
 		34E0EB621D1053270044B669 /* DataTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTypeViewController.m; sourceTree = "<group>"; };
@@ -206,9 +212,21 @@
 			name = ProtocolsLesson;
 			sourceTree = "<group>";
 		};
+		34A84B311D19889D00FA168A /* TableViewLesson */ = {
+			isa = PBXGroup;
+			children = (
+				34A84B321D19898A00FA168A /* CustomersTableViewController.h */,
+				34A84B331D19898A00FA168A /* CustomersTableViewController.m */,
+				34A84B351D199C3700FA168A /* CustomerTableViewCell.h */,
+				34A84B361D199C3700FA168A /* CustomerTableViewCell.m */,
+			);
+			name = TableViewLesson;
+			sourceTree = "<group>";
+		};
 		34C0C6801D165050001988B1 /* Week 2 */ = {
 			isa = PBXGroup;
 			children = (
+				34A84B311D19889D00FA168A /* TableViewLesson */,
 				346585A21D183B9D00DB202B /* ProtocolsLesson */,
 			);
 			name = "Week 2";
@@ -356,6 +374,7 @@
 				340AAE301D0F09AA00C488BF /* main.m in Sources */,
 				34E0EB661D105D440044B669 /* MethodsViewController.m in Sources */,
 				3404B4461D11AF1600EFAF69 /* Car.m in Sources */,
+				34A84B341D19898A00FA168A /* CustomersTableViewController.m in Sources */,
 				34E0EB6C1D10668C0044B669 /* Dog.m in Sources */,
 				34F533A91D130AB4007387E4 /* SliderControlViewController.m in Sources */,
 				340AAE4E1D0F231500C488BF /* DogViewController.m in Sources */,
@@ -364,6 +383,7 @@
 				3404B4431D11A9A600EFAF69 /* Truck.m in Sources */,
 				34F5339E1D12F4EF007387E4 /* Calculator.m in Sources */,
 				346585A91D183DB800DB202B /* Kingfisher.m in Sources */,
+				34A84B371D199C3700FA168A /* CustomerTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,6 +17,12 @@
    
     [super viewDidLoad];
     
+    
+    
+    if(self.mySwitch.on) {
+        // do somehting.......
+    }
+    
     // programmatically setting the delegate of UITextField to BirdsViewController
     
     // self.customerTextField.delegate = self;
