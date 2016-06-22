@@ -22,6 +22,9 @@
     UIView *greenView = [[UIView alloc] init];
     UIView *redView = [[UIView alloc] init];
    
+    // logging the CGRect
+   // NSLog(@"x = %f, y = %f, width = %f, height = %f",self.view.frame.origin.x,self.view.frame.origin.y,self.view.frame.size.width,self.view.frame.size.height) ;
+    
     //greenView.frame = CGRectMake(50, 100, 100, 100);
     
     // centering the greenView inside the root view of the controller
@@ -59,6 +62,12 @@
     
     // add the greenView to the root view of the controller
     [self.view addSubview:greenView];
+    
+    // add the stepperview control to the root view
+    StepperView *stepperView = [[StepperView alloc] init];
+    stepperView.frame = CGRectMake(20, 20, 100, 100);
+    
+    [self.view addSubview:stepperView];
     
 }
 

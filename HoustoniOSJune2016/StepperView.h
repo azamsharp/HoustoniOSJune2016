@@ -1,5 +1,5 @@
 //
-//  CustomViewController.h
+//  StepperView.h
 //  HoustoniOSJune2016
 //
 //  Created by Mohammad Azam on 6/22/16.
@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "StepperView.h" 
 
-@interface CustomViewController : UIViewController
-
+@interface StepperView : UIView
+{
+    
+}
 @end

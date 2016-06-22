@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3400E4581D1AD57F00E5AE4B /* Notes in Resources */ = {isa = PBXBuildFile; fileRef = 3400E4571D1AD57F00E5AE4B /* Notes */; };
 		3400E45B1D1AE91B00E5AE4B /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3400E45A1D1AE91B00E5AE4B /* CustomViewController.m */; };
+		3400E45E1D1AF50F00E5AE4B /* StepperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3400E45D1D1AF50F00E5AE4B /* StepperView.m */; };
 		3404B43E1D11A00700EFAF69 /* CarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404B43D1D11A00700EFAF69 /* CarViewController.m */; };
 		3404B4401D11A64100EFAF69 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 3404B43F1D11A64100EFAF69 /* File */; };
 		3404B4431D11A9A600EFAF69 /* Truck.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404B4421D11A9A600EFAF69 /* Truck.m */; };
@@ -46,6 +47,8 @@
 		3400E4571D1AD57F00E5AE4B /* Notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
 		3400E4591D1AE91B00E5AE4B /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
 		3400E45A1D1AE91B00E5AE4B /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		3400E45C1D1AF50F00E5AE4B /* StepperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepperView.h; sourceTree = "<group>"; };
+		3400E45D1D1AF50F00E5AE4B /* StepperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepperView.m; sourceTree = "<group>"; };
 		3404B43C1D11A00700EFAF69 /* CarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarViewController.h; sourceTree = "<group>"; };
 		3404B43D1D11A00700EFAF69 /* CarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarViewController.m; sourceTree = "<group>"; };
 		3404B43F1D11A64100EFAF69 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
@@ -212,6 +215,8 @@
 				34503A4B1D1A1EA0007EDE76 /* RoundedView.m */,
 				3400E4591D1AE91B00E5AE4B /* CustomViewController.h */,
 				3400E45A1D1AE91B00E5AE4B /* CustomViewController.m */,
+				3400E45C1D1AF50F00E5AE4B /* StepperView.h */,
+				3400E45D1D1AF50F00E5AE4B /* StepperView.m */,
 			);
 			name = CustomViews;
 			sourceTree = "<group>";
@@ -395,6 +400,7 @@
 				346585AF1D183E4700DB202B /* BirdsViewController.m in Sources */,
 				346585B21D18409D00DB202B /* LogBirdsViewController.m in Sources */,
 				340AAE301D0F09AA00C488BF /* main.m in Sources */,
+				3400E45E1D1AF50F00E5AE4B /* StepperView.m in Sources */,
 				34E0EB661D105D440044B669 /* MethodsViewController.m in Sources */,
 				3404B4461D11AF1600EFAF69 /* Car.m in Sources */,
 				34A84B341D19898A00FA168A /* CustomersTableViewController.m in Sources */,
