@@ -1,0 +1,2 @@
+//subView.center = CGPointMake(CGRectGetMidX(parentView.bounds),
+//                               CGRectGetMidY(parentView.bounds));
