@@ -25,6 +25,7 @@
     // logging the CGRect
    // NSLog(@"x = %f, y = %f, width = %f, height = %f",self.view.frame.origin.x,self.view.frame.origin.y,self.view.frame.size.width,self.view.frame.size.height) ;
     
+    // assign the frame to the greenView
     //greenView.frame = CGRectMake(50, 100, 100, 100);
     
     // centering the greenView inside the root view of the controller

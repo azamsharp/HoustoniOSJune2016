@@ -40,6 +40,7 @@
 		34EAAC0E1D1C246C0039EB87 /* CustomViewWithProtocolsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EAAC0D1D1C246C0039EB87 /* CustomViewWithProtocolsController.m */; };
 		34EAAC111D1C2C720039EB87 /* SwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EAAC101D1C2C720039EB87 /* SwitchView.m */; };
 		34EAAC141D1C49C10039EB87 /* AnotherRoundedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EAAC131D1C49C10039EB87 /* AnotherRoundedView.m */; };
+		34EAAC171D1C559A0039EB87 /* CreatingUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EAAC161D1C559A0039EB87 /* CreatingUIViewController.m */; };
 		34F5339B1D12EA05007387E4 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F5339A1D12EA05007387E4 /* CalculatorViewController.m */; };
 		34F5339E1D12F4EF007387E4 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F5339D1D12F4EF007387E4 /* Calculator.m */; };
 		34F533A11D12F5C5007387E4 /* ScientificCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F533A01D12F5C5007387E4 /* ScientificCalculatorViewController.m */; };
@@ -107,6 +108,8 @@
 		34EAAC101D1C2C720039EB87 /* SwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchView.m; sourceTree = "<group>"; };
 		34EAAC121D1C49C10039EB87 /* AnotherRoundedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherRoundedView.h; sourceTree = "<group>"; };
 		34EAAC131D1C49C10039EB87 /* AnotherRoundedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherRoundedView.m; sourceTree = "<group>"; };
+		34EAAC151D1C559A0039EB87 /* CreatingUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatingUIViewController.h; sourceTree = "<group>"; };
+		34EAAC161D1C559A0039EB87 /* CreatingUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatingUIViewController.m; sourceTree = "<group>"; };
 		34F533991D12EA05007387E4 /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		34F5339A1D12EA05007387E4 /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
 		34F5339C1D12F4EF007387E4 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
@@ -235,6 +238,8 @@
 				34EAAC101D1C2C720039EB87 /* SwitchView.m */,
 				34EAAC121D1C49C10039EB87 /* AnotherRoundedView.h */,
 				34EAAC131D1C49C10039EB87 /* AnotherRoundedView.m */,
+				34EAAC151D1C559A0039EB87 /* CreatingUIViewController.h */,
+				34EAAC161D1C559A0039EB87 /* CreatingUIViewController.m */,
 			);
 			name = CustomViews;
 			sourceTree = "<group>";
@@ -428,6 +433,7 @@
 				34E0EB6C1D10668C0044B669 /* Dog.m in Sources */,
 				34F533A91D130AB4007387E4 /* SliderControlViewController.m in Sources */,
 				340AAE4E1D0F231500C488BF /* DogViewController.m in Sources */,
+				34EAAC171D1C559A0039EB87 /* CreatingUIViewController.m in Sources */,
 				34E0EB631D1053270044B669 /* DataTypeViewController.m in Sources */,
 				346585A51D183BB200DB202B /* Pelican.m in Sources */,
 				34EAAC0E1D1C246C0039EB87 /* CustomViewWithProtocolsController.m in Sources */,

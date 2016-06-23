@@ -10,9 +10,13 @@
 
 @interface AnotherRoundedView : UIView
 {
-    
+    int _a;
+    NSString *topSecret;
 }
 
 @property (nonatomic,assign) CGFloat cornerRadius;
+-(void) foo;
 
 @end
+
+

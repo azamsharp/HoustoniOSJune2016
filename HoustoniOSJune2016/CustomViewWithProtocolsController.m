@@ -19,10 +19,11 @@
     
     [super viewDidLoad];
     
+    // for manually creating the StepperView
     SwitchView *switchView = [[SwitchView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     switchView.center = self.view.center;
     switchView.delegate = self;  // setting the view controller as a delegate to the switch view
-    [self.view addSubview:switchView];
+   // [self.view addSubview:switchView];
 }
 
 -(void) switchViewValueChanged:(BOOL)on {
