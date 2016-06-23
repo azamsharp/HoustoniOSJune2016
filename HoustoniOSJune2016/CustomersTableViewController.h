@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CustomerTableViewCell.h" 
+#import "Customer.h" 
 
 @interface CustomersTableViewController : UITableViewController
 {
     NSMutableArray *_customers;
 }
+
+// properties
+
+// methods
+
 @end

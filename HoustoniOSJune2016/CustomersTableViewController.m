@@ -18,7 +18,15 @@
     
     [super viewDidLoad];
     
-    _customers = [NSMutableArray arrayWithObjects:@"John",@"Mary",@"Peter",@"Jerry", nil];
+    Customer *firstCustomer = [[Customer alloc] init];
+    firstCustomer.name = @"John";
+    firstCustomer.occupation = @"Marine Biologist";
+    
+    Customer *secondCustomer = [[Customer alloc] init];
+    secondCustomer.name = @"Mary";
+    secondCustomer.occupation = @"Marine Biologist";
+    
+    _customers = [NSMutableArray arrayWithObjects:firstCustomer,secondCustomer, nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -32,25 +40,31 @@
     return 1;
 }
 
+-(UIView *) tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0,0,100,44)];
+    view.backgroundColor = [UIColor redColor];
+    return view;
+}
+
+-(CGFloat) tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return 40.0;
+}
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return _customers.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    CustomerTableViewCell *cell = (CustomerTableViewCell *) [tableView dequeueReusableCellWithIdentifier:@"CustomerTableViewCell" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CustomerTableViewCell" forIndexPath:indexPath];
     
-    cell.nameLabel.text = _customers[indexPath.row];
-    [cell.messagesReceivedButton setTitle:@"23" forState:UIControlStateNormal];
+    // DataType *variable = [alloc init]
     
-    //NSString *name =  _customers[indexPath.row];
-   // cell.textLabel.text = name;
-    
-    //cell.detailTextLabel.text = @"I am detail text label";
-    
-    // custom properties and outlets
-    
-    
+    Customer *customer =  _customers[indexPath.row];
+   
+    cell.textLabel.text = customer.name;
+    cell.detailTextLabel.text = customer.occupation;
     
     return cell;
 }

@@ -29,6 +29,7 @@
 		346585A91D183DB800DB202B /* Kingfisher.m in Sources */ = {isa = PBXBuildFile; fileRef = 346585A81D183DB800DB202B /* Kingfisher.m */; };
 		346585AF1D183E4700DB202B /* BirdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346585AE1D183E4700DB202B /* BirdsViewController.m */; };
 		346585B21D18409D00DB202B /* LogBirdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346585B11D18409D00DB202B /* LogBirdsViewController.m */; };
+		3467B9F81D1B1C7F00088A5D /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467B9F71D1B1C7F00088A5D /* Customer.m */; };
 		34A84B341D19898A00FA168A /* CustomersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A84B331D19898A00FA168A /* CustomersTableViewController.m */; };
 		34A84B371D199C3700FA168A /* CustomerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A84B361D199C3700FA168A /* CustomerTableViewCell.m */; };
 		34E0EB3D1D1042730044B669 /* Lecture_2 in Resources */ = {isa = PBXBuildFile; fileRef = 34E0EB3C1D1042730044B669 /* Lecture_2 */; };
@@ -36,6 +37,9 @@
 		34E0EB661D105D440044B669 /* MethodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E0EB651D105D440044B669 /* MethodsViewController.m */; };
 		34E0EB6C1D10668C0044B669 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E0EB6B1D10668C0044B669 /* Dog.m */; };
 		34E0EB6F1D1067070044B669 /* DogClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E0EB6E1D1067070044B669 /* DogClassViewController.m */; };
+		34EAAC0E1D1C246C0039EB87 /* CustomViewWithProtocolsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EAAC0D1D1C246C0039EB87 /* CustomViewWithProtocolsController.m */; };
+		34EAAC111D1C2C720039EB87 /* SwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EAAC101D1C2C720039EB87 /* SwitchView.m */; };
+		34EAAC141D1C49C10039EB87 /* AnotherRoundedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EAAC131D1C49C10039EB87 /* AnotherRoundedView.m */; };
 		34F5339B1D12EA05007387E4 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F5339A1D12EA05007387E4 /* CalculatorViewController.m */; };
 		34F5339E1D12F4EF007387E4 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F5339D1D12F4EF007387E4 /* Calculator.m */; };
 		34F533A11D12F5C5007387E4 /* ScientificCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F533A01D12F5C5007387E4 /* ScientificCalculatorViewController.m */; };
@@ -82,6 +86,8 @@
 		346585AE1D183E4700DB202B /* BirdsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdsViewController.m; sourceTree = "<group>"; };
 		346585B01D18409D00DB202B /* LogBirdsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogBirdsViewController.h; sourceTree = "<group>"; };
 		346585B11D18409D00DB202B /* LogBirdsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogBirdsViewController.m; sourceTree = "<group>"; };
+		3467B9F61D1B1C7F00088A5D /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		3467B9F71D1B1C7F00088A5D /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
 		34A84B321D19898A00FA168A /* CustomersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomersTableViewController.h; sourceTree = "<group>"; };
 		34A84B331D19898A00FA168A /* CustomersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomersTableViewController.m; sourceTree = "<group>"; };
 		34A84B351D199C3700FA168A /* CustomerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerTableViewCell.h; sourceTree = "<group>"; };
@@ -95,6 +101,12 @@
 		34E0EB6B1D10668C0044B669 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		34E0EB6D1D1067070044B669 /* DogClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogClassViewController.h; sourceTree = "<group>"; };
 		34E0EB6E1D1067070044B669 /* DogClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogClassViewController.m; sourceTree = "<group>"; };
+		34EAAC0C1D1C246C0039EB87 /* CustomViewWithProtocolsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewWithProtocolsController.h; sourceTree = "<group>"; };
+		34EAAC0D1D1C246C0039EB87 /* CustomViewWithProtocolsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewWithProtocolsController.m; sourceTree = "<group>"; };
+		34EAAC0F1D1C2C720039EB87 /* SwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchView.h; sourceTree = "<group>"; };
+		34EAAC101D1C2C720039EB87 /* SwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchView.m; sourceTree = "<group>"; };
+		34EAAC121D1C49C10039EB87 /* AnotherRoundedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherRoundedView.h; sourceTree = "<group>"; };
+		34EAAC131D1C49C10039EB87 /* AnotherRoundedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherRoundedView.m; sourceTree = "<group>"; };
 		34F533991D12EA05007387E4 /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		34F5339A1D12EA05007387E4 /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
 		34F5339C1D12F4EF007387E4 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
@@ -217,6 +229,12 @@
 				3400E45A1D1AE91B00E5AE4B /* CustomViewController.m */,
 				3400E45C1D1AF50F00E5AE4B /* StepperView.h */,
 				3400E45D1D1AF50F00E5AE4B /* StepperView.m */,
+				34EAAC0C1D1C246C0039EB87 /* CustomViewWithProtocolsController.h */,
+				34EAAC0D1D1C246C0039EB87 /* CustomViewWithProtocolsController.m */,
+				34EAAC0F1D1C2C720039EB87 /* SwitchView.h */,
+				34EAAC101D1C2C720039EB87 /* SwitchView.m */,
+				34EAAC121D1C49C10039EB87 /* AnotherRoundedView.h */,
+				34EAAC131D1C49C10039EB87 /* AnotherRoundedView.m */,
 			);
 			name = CustomViews;
 			sourceTree = "<group>";
@@ -244,6 +262,8 @@
 				34A84B331D19898A00FA168A /* CustomersTableViewController.m */,
 				34A84B351D199C3700FA168A /* CustomerTableViewCell.h */,
 				34A84B361D199C3700FA168A /* CustomerTableViewCell.m */,
+				3467B9F61D1B1C7F00088A5D /* Customer.h */,
+				3467B9F71D1B1C7F00088A5D /* Customer.m */,
 			);
 			name = TableViewLesson;
 			sourceTree = "<group>";
@@ -401,6 +421,7 @@
 				346585B21D18409D00DB202B /* LogBirdsViewController.m in Sources */,
 				340AAE301D0F09AA00C488BF /* main.m in Sources */,
 				3400E45E1D1AF50F00E5AE4B /* StepperView.m in Sources */,
+				34EAAC141D1C49C10039EB87 /* AnotherRoundedView.m in Sources */,
 				34E0EB661D105D440044B669 /* MethodsViewController.m in Sources */,
 				3404B4461D11AF1600EFAF69 /* Car.m in Sources */,
 				34A84B341D19898A00FA168A /* CustomersTableViewController.m in Sources */,
@@ -409,9 +430,12 @@
 				340AAE4E1D0F231500C488BF /* DogViewController.m in Sources */,
 				34E0EB631D1053270044B669 /* DataTypeViewController.m in Sources */,
 				346585A51D183BB200DB202B /* Pelican.m in Sources */,
+				34EAAC0E1D1C246C0039EB87 /* CustomViewWithProtocolsController.m in Sources */,
 				3400E45B1D1AE91B00E5AE4B /* CustomViewController.m in Sources */,
 				3404B4431D11A9A600EFAF69 /* Truck.m in Sources */,
 				34F5339E1D12F4EF007387E4 /* Calculator.m in Sources */,
+				34EAAC111D1C2C720039EB87 /* SwitchView.m in Sources */,
+				3467B9F81D1B1C7F00088A5D /* Customer.m in Sources */,
 				346585A91D183DB800DB202B /* Kingfisher.m in Sources */,
 				34A84B371D199C3700FA168A /* CustomerTableViewCell.m in Sources */,
 			);
