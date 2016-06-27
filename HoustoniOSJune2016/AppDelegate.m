@@ -16,8 +16,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+   
+    // call the theme manager
+    //[ThemeManager applyTheme];
+    
+    [self setupTheme];
+    
     return YES;
+}
+
+-(void) setupTheme {
+    
+    [[UINavigationBar appearance] setBarTintColor:[UIColor greenColor]];
+    [[UIBarButtonItem appearance] setTintColor:[UIColor whiteColor]];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

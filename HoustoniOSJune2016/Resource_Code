@@ -1,0 +1,38 @@
+-(void) touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+
+UITouch *touch = [touches anyObject];
+CGPoint point = [touch locationInView:self.view];
+NSLog(@"x = %f, y = %f",point.x,point.y);
+}
+
+-(void) touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+NSLog(@"touchesEnd");
+}
+
+UIButton -> UIView -> UIResponder
+
+
+Consultant vs Independent Contractor vs Full Time
+
+
+Hourly pricing is bad!
+
+$100 per hour
+
+Senior Developer - 1 hour
+
+Junior Developer - 5 hour
+
+30 minutes to install.... Company saving 1 million dollars
+
+100$ per - $50
+
+--- Value based pricing
+
+
+
+
+
+
+
+
