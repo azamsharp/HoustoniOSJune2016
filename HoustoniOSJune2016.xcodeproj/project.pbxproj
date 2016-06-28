@@ -50,6 +50,13 @@
 		34F533A11D12F5C5007387E4 /* ScientificCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F533A01D12F5C5007387E4 /* ScientificCalculatorViewController.m */; };
 		34F533A51D12F6BA007387E4 /* CollectionLessonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F533A41D12F6BA007387E4 /* CollectionLessonViewController.m */; };
 		34F533A91D130AB4007387E4 /* SliderControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F533A81D130AB4007387E4 /* SliderControlViewController.m */; };
+		34FD0AC61D22BD3000C8C8DB /* FAQWeek2Day2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FD0AC51D22BD3000C8C8DB /* FAQWeek2Day2ViewController.m */; };
+		34FD0AC91D22C7E900C8C8DB /* SimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FD0AC81D22C7E900C8C8DB /* SimpleViewController.m */; };
+		34FD0ACC1D22C85700C8C8DB /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FD0ACB1D22C85700C8C8DB /* DetailsViewController.m */; };
+		34FD0ACF1D22CB5300C8C8DB /* CustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FD0ACE1D22CB5300C8C8DB /* CustomerViewController.m */; };
+		34FD0AD21D22D61C00C8C8DB /* CustomersListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FD0AD11D22D61C00C8C8DB /* CustomersListTableViewController.m */; };
+		34FD0AD51D22D82E00C8C8DB /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FD0AD41D22D82E00C8C8DB /* AccountViewController.m */; };
+		34FD0AD81D22D85300C8C8DB /* AddAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FD0AD71D22D85300C8C8DB /* AddAccountViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -131,6 +138,20 @@
 		34F533A41D12F6BA007387E4 /* CollectionLessonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionLessonViewController.m; sourceTree = "<group>"; };
 		34F533A71D130AB4007387E4 /* SliderControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderControlViewController.h; sourceTree = "<group>"; };
 		34F533A81D130AB4007387E4 /* SliderControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderControlViewController.m; sourceTree = "<group>"; };
+		34FD0AC41D22BD3000C8C8DB /* FAQWeek2Day2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAQWeek2Day2ViewController.h; sourceTree = "<group>"; };
+		34FD0AC51D22BD3000C8C8DB /* FAQWeek2Day2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAQWeek2Day2ViewController.m; sourceTree = "<group>"; };
+		34FD0AC71D22C7E900C8C8DB /* SimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleViewController.h; sourceTree = "<group>"; };
+		34FD0AC81D22C7E900C8C8DB /* SimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleViewController.m; sourceTree = "<group>"; };
+		34FD0ACA1D22C85700C8C8DB /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		34FD0ACB1D22C85700C8C8DB /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		34FD0ACD1D22CB5300C8C8DB /* CustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerViewController.h; sourceTree = "<group>"; };
+		34FD0ACE1D22CB5300C8C8DB /* CustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerViewController.m; sourceTree = "<group>"; };
+		34FD0AD01D22D61C00C8C8DB /* CustomersListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomersListTableViewController.h; sourceTree = "<group>"; };
+		34FD0AD11D22D61C00C8C8DB /* CustomersListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomersListTableViewController.m; sourceTree = "<group>"; };
+		34FD0AD31D22D82E00C8C8DB /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		34FD0AD41D22D82E00C8C8DB /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		34FD0AD61D22D85300C8C8DB /* AddAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAccountViewController.h; sourceTree = "<group>"; };
+		34FD0AD71D22D85300C8C8DB /* AddAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAccountViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +296,8 @@
 		349B243C1D20CF9A0098199E /* Week 3 */ = {
 			isa = PBXGroup;
 			children = (
+				34FD0AC31D22BCF800C8C8DB /* FAQ */,
+				34FD0AC21D22BCF000C8C8DB /* Navigation */,
 				34A2799D1D217B9300F1F09B /* AnimationsLesson */,
 				34A2799C1D21713D00F1F09B /* GesturesLesson */,
 				34A279991D216E0100F1F09B /* Resources */,
@@ -388,6 +411,34 @@
 			name = Controls;
 			sourceTree = "<group>";
 		};
+		34FD0AC21D22BCF000C8C8DB /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				34FD0AC71D22C7E900C8C8DB /* SimpleViewController.h */,
+				34FD0AC81D22C7E900C8C8DB /* SimpleViewController.m */,
+				34FD0ACA1D22C85700C8C8DB /* DetailsViewController.h */,
+				34FD0ACB1D22C85700C8C8DB /* DetailsViewController.m */,
+				34FD0ACD1D22CB5300C8C8DB /* CustomerViewController.h */,
+				34FD0ACE1D22CB5300C8C8DB /* CustomerViewController.m */,
+				34FD0AD01D22D61C00C8C8DB /* CustomersListTableViewController.h */,
+				34FD0AD11D22D61C00C8C8DB /* CustomersListTableViewController.m */,
+				34FD0AD31D22D82E00C8C8DB /* AccountViewController.h */,
+				34FD0AD41D22D82E00C8C8DB /* AccountViewController.m */,
+				34FD0AD61D22D85300C8C8DB /* AddAccountViewController.h */,
+				34FD0AD71D22D85300C8C8DB /* AddAccountViewController.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		34FD0AC31D22BCF800C8C8DB /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				34FD0AC41D22BD3000C8C8DB /* FAQWeek2Day2ViewController.h */,
+				34FD0AC51D22BD3000C8C8DB /* FAQWeek2Day2ViewController.m */,
+			);
+			name = FAQ;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -470,8 +521,12 @@
 				34F533A11D12F5C5007387E4 /* ScientificCalculatorViewController.m in Sources */,
 				3404B43E1D11A00700EFAF69 /* CarViewController.m in Sources */,
 				34503A4C1D1A1EA0007EDE76 /* RoundedView.m in Sources */,
+				34FD0AD21D22D61C00C8C8DB /* CustomersListTableViewController.m in Sources */,
 				34F5339B1D12EA05007387E4 /* CalculatorViewController.m in Sources */,
+				34FD0AC61D22BD3000C8C8DB /* FAQWeek2Day2ViewController.m in Sources */,
+				34FD0ACF1D22CB5300C8C8DB /* CustomerViewController.m in Sources */,
 				340AAE331D0F09AA00C488BF /* AppDelegate.m in Sources */,
+				34FD0AD81D22D85300C8C8DB /* AddAccountViewController.m in Sources */,
 				34A279A01D217BAA00F1F09B /* AnimationsViewController.m in Sources */,
 				34E0EB6F1D1067070044B669 /* DogClassViewController.m in Sources */,
 				346585AF1D183E4700DB202B /* BirdsViewController.m in Sources */,
@@ -479,6 +534,7 @@
 				340AAE301D0F09AA00C488BF /* main.m in Sources */,
 				3400E45E1D1AF50F00E5AE4B /* StepperView.m in Sources */,
 				34EAAC141D1C49C10039EB87 /* AnotherRoundedView.m in Sources */,
+				34FD0ACC1D22C85700C8C8DB /* DetailsViewController.m in Sources */,
 				34E0EB661D105D440044B669 /* MethodsViewController.m in Sources */,
 				3404B4461D11AF1600EFAF69 /* Car.m in Sources */,
 				34A84B341D19898A00FA168A /* CustomersTableViewController.m in Sources */,
@@ -486,9 +542,11 @@
 				34F533A91D130AB4007387E4 /* SliderControlViewController.m in Sources */,
 				340AAE4E1D0F231500C488BF /* DogViewController.m in Sources */,
 				34A279A31D21887F00F1F09B /* ThemeManager.m in Sources */,
+				34FD0AD51D22D82E00C8C8DB /* AccountViewController.m in Sources */,
 				34EAAC171D1C559A0039EB87 /* CreatingUIViewController.m in Sources */,
 				34E0EB631D1053270044B669 /* DataTypeViewController.m in Sources */,
 				346585A51D183BB200DB202B /* Pelican.m in Sources */,
+				34FD0AC91D22C7E900C8C8DB /* SimpleViewController.m in Sources */,
 				34EAAC0E1D1C246C0039EB87 /* CustomViewWithProtocolsController.m in Sources */,
 				3400E45B1D1AE91B00E5AE4B /* CustomViewController.m in Sources */,
 				3404B4431D11A9A600EFAF69 /* Truck.m in Sources */,
@@ -611,7 +669,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = HoustoniOSJune2016/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.theironyard.houston.HoustoniOSJune2016;
@@ -623,7 +681,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = HoustoniOSJune2016/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.theironyard.houston.HoustoniOSJune2016;
