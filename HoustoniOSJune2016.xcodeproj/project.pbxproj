@@ -30,10 +30,10 @@
 		346585AF1D183E4700DB202B /* BirdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346585AE1D183E4700DB202B /* BirdsViewController.m */; };
 		346585B21D18409D00DB202B /* LogBirdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346585B11D18409D00DB202B /* LogBirdsViewController.m */; };
 		3467B9F81D1B1C7F00088A5D /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467B9F71D1B1C7F00088A5D /* Customer.m */; };
-		348FC8A31D237BF700F1BE07 /* UserDefaultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348FC8A21D237BF700F1BE07 /* UserDefaultsViewController.m */; };
-		348FC8A61D237F6600F1BE07 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 348FC8A51D237F6600F1BE07 /* Person.m */; };
 		3493F3F81D240C8000D0EAFB /* Resource_UserDefaults in Resources */ = {isa = PBXBuildFile; fileRef = 3493F3F71D240C8000D0EAFB /* Resource_UserDefaults */; };
 		3493F3FB1D2417D600D0EAFB /* AddCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3493F3FA1D2417D600D0EAFB /* AddCustomerViewController.m */; };
+		3493F3FE1D24221A00D0EAFB /* UserDefaultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3493F3FD1D24221A00D0EAFB /* UserDefaultsViewController.m */; };
+		3493F4011D242C4B00D0EAFB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3493F4001D242C4B00D0EAFB /* Person.m */; };
 		349B243F1D20CFAF0098199E /* DemoGesturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349B243E1D20CFAF0098199E /* DemoGesturesViewController.m */; };
 		34A2799B1D216E5000F1F09B /* Resource_Code in Resources */ = {isa = PBXBuildFile; fileRef = 34A2799A1D216E5000F1F09B /* Resource_Code */; };
 		34A279A01D217BAA00F1F09B /* AnimationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A2799F1D217BAA00F1F09B /* AnimationsViewController.m */; };
@@ -104,13 +104,13 @@
 		346585B11D18409D00DB202B /* LogBirdsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogBirdsViewController.m; sourceTree = "<group>"; };
 		3467B9F61D1B1C7F00088A5D /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
 		3467B9F71D1B1C7F00088A5D /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
-		348FC8A11D237BF700F1BE07 /* UserDefaultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsViewController.h; sourceTree = "<group>"; };
-		348FC8A21D237BF700F1BE07 /* UserDefaultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsViewController.m; sourceTree = "<group>"; };
-		348FC8A41D237F6600F1BE07 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		348FC8A51D237F6600F1BE07 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		3493F3F71D240C8000D0EAFB /* Resource_UserDefaults */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Resource_UserDefaults; sourceTree = "<group>"; };
 		3493F3F91D2417D600D0EAFB /* AddCustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCustomerViewController.h; sourceTree = "<group>"; };
 		3493F3FA1D2417D600D0EAFB /* AddCustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCustomerViewController.m; sourceTree = "<group>"; };
+		3493F3FC1D24221A00D0EAFB /* UserDefaultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsViewController.h; sourceTree = "<group>"; };
+		3493F3FD1D24221A00D0EAFB /* UserDefaultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsViewController.m; sourceTree = "<group>"; };
+		3493F3FF1D242C4B00D0EAFB /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3493F4001D242C4B00D0EAFB /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		349B243D1D20CFAF0098199E /* DemoGesturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoGesturesViewController.h; sourceTree = "<group>"; };
 		349B243E1D20CFAF0098199E /* DemoGesturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoGesturesViewController.m; sourceTree = "<group>"; };
 		34A2799A1D216E5000F1F09B /* Resource_Code */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Resource_Code; sourceTree = "<group>"; };
@@ -307,11 +307,11 @@
 		348FC8A01D237BC400F1BE07 /* UserDefaults */ = {
 			isa = PBXGroup;
 			children = (
-				348FC8A11D237BF700F1BE07 /* UserDefaultsViewController.h */,
-				348FC8A21D237BF700F1BE07 /* UserDefaultsViewController.m */,
-				348FC8A41D237F6600F1BE07 /* Person.h */,
-				348FC8A51D237F6600F1BE07 /* Person.m */,
 				3493F3F71D240C8000D0EAFB /* Resource_UserDefaults */,
+				3493F3FC1D24221A00D0EAFB /* UserDefaultsViewController.h */,
+				3493F3FD1D24221A00D0EAFB /* UserDefaultsViewController.m */,
+				3493F3FF1D242C4B00D0EAFB /* Person.h */,
+				3493F4001D242C4B00D0EAFB /* Person.m */,
 			);
 			name = UserDefaults;
 			sourceTree = "<group>";
@@ -544,7 +544,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				340AAE4B1D0F152500C488BF /* CatViewController.m in Sources */,
-				348FC8A31D237BF700F1BE07 /* UserDefaultsViewController.m in Sources */,
 				34F533A51D12F6BA007387E4 /* CollectionLessonViewController.m in Sources */,
 				34F533A11D12F5C5007387E4 /* ScientificCalculatorViewController.m in Sources */,
 				3404B43E1D11A00700EFAF69 /* CarViewController.m in Sources */,
@@ -562,6 +561,7 @@
 				340AAE301D0F09AA00C488BF /* main.m in Sources */,
 				3400E45E1D1AF50F00E5AE4B /* StepperView.m in Sources */,
 				34EAAC141D1C49C10039EB87 /* AnotherRoundedView.m in Sources */,
+				3493F4011D242C4B00D0EAFB /* Person.m in Sources */,
 				34FD0ACC1D22C85700C8C8DB /* DetailsViewController.m in Sources */,
 				34E0EB661D105D440044B669 /* MethodsViewController.m in Sources */,
 				3404B4461D11AF1600EFAF69 /* Car.m in Sources */,
@@ -574,7 +574,6 @@
 				34FD0AD51D22D82E00C8C8DB /* AccountViewController.m in Sources */,
 				34EAAC171D1C559A0039EB87 /* CreatingUIViewController.m in Sources */,
 				34E0EB631D1053270044B669 /* DataTypeViewController.m in Sources */,
-				348FC8A61D237F6600F1BE07 /* Person.m in Sources */,
 				346585A51D183BB200DB202B /* Pelican.m in Sources */,
 				34FD0AC91D22C7E900C8C8DB /* SimpleViewController.m in Sources */,
 				34EAAC0E1D1C246C0039EB87 /* CustomViewWithProtocolsController.m in Sources */,
@@ -582,6 +581,7 @@
 				3404B4431D11A9A600EFAF69 /* Truck.m in Sources */,
 				34F5339E1D12F4EF007387E4 /* Calculator.m in Sources */,
 				34EAAC111D1C2C720039EB87 /* SwitchView.m in Sources */,
+				3493F3FE1D24221A00D0EAFB /* UserDefaultsViewController.m in Sources */,
 				349B243F1D20CFAF0098199E /* DemoGesturesViewController.m in Sources */,
 				3467B9F81D1B1C7F00088A5D /* Customer.m in Sources */,
 				346585A91D183DB800DB202B /* Kingfisher.m in Sources */,

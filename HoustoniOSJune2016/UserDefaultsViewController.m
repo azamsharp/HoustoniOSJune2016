@@ -2,7 +2,7 @@
 //  UserDefaultsViewController.m
 //  HoustoniOSJune2016
 //
-//  Created by Mohammad Azam on 6/28/16.
+//  Created by Mohammad Azam on 6/29/16.
 //  Copyright © 2016 Mohammad Azam. All rights reserved.
 //
 
@@ -15,36 +15,41 @@
 @implementation UserDefaultsViewController
 
 - (void)viewDidLoad {
-   
+    
     [super viewDidLoad];
     
-    // create a person
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    
+    // create person object
     Person *person = [[Person alloc] init];
     person.firstName = @"John";
     person.lastName = @"Doe";
     
     NSData *personData = [NSKeyedArchiver archivedDataWithRootObject:person];
     
-    NSArray *people = [NSArray arrayWithObject:personData];
+    [userDefaults setObject:personData forKey:@"SecretPerson"];
     
-    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    //NSArray *personArray = [NSArray arrayWithObject:person];
     
-    [userDefaults setObject:people forKey:@"People"];
+    //[userDefaults setObject:personArray forKey:@"SecretPersonArray"];
     
+   // [userDefaults setValue:@"This is Secret" forKey:@"MySecretKey"];
     [userDefaults synchronize];
 }
 
--(IBAction) buttonPressed:(id) sender {
+-(IBAction) buttonPressed {
     
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     
-    NSArray *people = [userDefaults valueForKey:@"People"];
-    
-    NSData *personData = people[0];
+    NSData *personData = [userDefaults valueForKey:@"SecretPerson"];
     
     Person *person = (Person *) [NSKeyedUnarchiver unarchiveObjectWithData:personData];
     
-    NSLog(@"%@, %@",person.firstName,person.lastName);
+    NSLog(@"");
+    
+    //NSString *secret = [userDefaults valueForKey:@"MySecretKey"];
+    
+   // NSLog(@"%@",secret);
     
 }
 
