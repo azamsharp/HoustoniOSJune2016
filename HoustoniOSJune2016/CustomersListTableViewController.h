@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddCustomerViewController.h"
 
-@interface CustomersListTableViewController : UITableViewController
+@interface CustomersListTableViewController : UITableViewController<AddCustomerDelegate>
 {
     NSMutableArray *_customers; 
 }

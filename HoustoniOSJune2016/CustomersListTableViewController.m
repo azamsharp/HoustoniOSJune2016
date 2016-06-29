@@ -45,6 +45,40 @@
     return _customers.count;
 }
 
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    if([segue.identifier isEqualToString:@"AddCustomerViewControllerSegue"]) {
+        
+        // if you are using navigation controller
+//        UINavigationController *navigationController = (UINavigationController *) segue.destinationViewController;
+//        
+//        AddCustomerViewController *addCustomerViewController = (AddCustomerViewController *)navigationController.viewControllers.firstObject;
+        
+        // end of the if you are using navigation controller
+//        
+        AddCustomerViewController *addCustomerViewController = (AddCustomerViewController *) segue.destinationViewController;
+        
+        // Setting up the delegates for the AddCustomerDelegate protocols
+        addCustomerViewController.delegate = self;
+        
+    }
+}
+
+-(void) addCustomerDidSave:(NSString *)name {
+    
+    NSLog(@"%@",name);
+    
+    /// add the name to the array
+    [_customers addObject:name];
+    
+    // reload the table
+    [self.tableView reloadData]; // reloading is an expensive operation
+    
+    // add the new row to the table View
+    //[self.tableView insertRowsAtIndexPaths:[name] withRowAnimation:UITableViewRowAnimationAutomatic];
+    
+    
+}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
    

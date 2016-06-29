@@ -20,7 +20,7 @@
     // call the theme manager
     //[ThemeManager applyTheme];
     
-    [self setupTheme];
+   // [self setupTheme];
     
     return YES;
 }

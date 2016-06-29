@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Nh4-oW-nUs">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Qw9-y6-Sa7">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -122,7 +122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hod-UF-ATj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7064" y="-3138"/>
+            <point key="canvasLocation" x="-5440" y="-3138"/>
         </scene>
         <!--Details View Controller-->
         <scene sceneID="ttQ-ol-SI8">
@@ -155,7 +155,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mSC-ne-Puf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6374" y="-2386"/>
+            <point key="canvasLocation" x="-6182" y="-2254"/>
         </scene>
         <!--CreatingUI View Controller-->
         <scene sceneID="iCD-RM-0T9">
@@ -225,18 +225,18 @@
                                 <rect key="frame" x="0.0" y="28" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="G3y-Fn-tt1" id="odb-rD-Dea">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZVq-Zo-vvy">
-                                            <rect key="frame" x="15" y="6" width="31.5" height="19.5"/>
+                                            <rect key="frame" x="15" y="5" width="32" height="20"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MZK-fu-qod">
-                                            <rect key="frame" x="15" y="25.5" width="40.5" height="13.5"/>
+                                            <rect key="frame" x="15" y="25" width="41" height="14"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -468,6 +468,37 @@
             </objects>
             <point key="canvasLocation" x="1843" y="-1797"/>
         </scene>
+        <!--User Defaults View Controller-->
+        <scene sceneID="Sdh-Fq-eNE">
+            <objects>
+                <viewController id="yml-Zg-Knn" customClass="UserDefaultsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ys3-Kd-Kn7"/>
+                        <viewControllerLayoutGuide type="bottom" id="8aV-nK-8wN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hUo-s1-j9o">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdz-aX-ddV">
+                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="yml-Zg-Knn" eventType="touchUpInside" id="Bj6-OM-Phy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jdz-aX-ddV" firstAttribute="centerY" secondItem="hUo-s1-j9o" secondAttribute="centerY" id="GM4-lD-7TH"/>
+                            <constraint firstItem="jdz-aX-ddV" firstAttribute="centerX" secondItem="hUo-s1-j9o" secondAttribute="centerX" id="wkb-s1-p3i"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E8U-vg-XRh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-9527" y="-3772"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="9m8-rb-yZq">
             <objects>
@@ -484,7 +515,48 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cn2-CZ-VfS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7768" y="-3576"/>
+            <point key="canvasLocation" x="-7744" y="-3380"/>
+        </scene>
+        <!--Add Customer View Controller-->
+        <scene sceneID="wzJ-KA-EMq">
+            <objects>
+                <viewController id="TOJ-Dr-SB8" customClass="AddCustomerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YJX-JD-rMK"/>
+                        <viewControllerLayoutGuide type="bottom" id="5pd-lV-vmL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Tol-3e-kmh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DD7-nl-uoc">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="Item" id="UXO-4I-sEy"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="8Xn-46-XXo"/>
+                                    <barButtonItem title="Save" id="jGc-yT-yMF">
+                                        <connections>
+                                            <action selector="save" destination="TOJ-Dr-SB8" id="06y-Mn-AxD"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DD7-nl-uoc" firstAttribute="leading" secondItem="Tol-3e-kmh" secondAttribute="leading" id="L7h-8y-2Sb"/>
+                            <constraint firstAttribute="trailing" secondItem="DD7-nl-uoc" secondAttribute="trailing" id="Tvr-Iw-W81"/>
+                            <constraint firstItem="DD7-nl-uoc" firstAttribute="top" secondItem="Tol-3e-kmh" secondAttribute="top" id="UO2-0Q-QZS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="RoO-Vt-ETw">
+                        <barButtonItem key="leftBarButtonItem" title="Close" id="GT7-59-AtB"/>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="RmR-b9-khV"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qn0-gK-bsf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6858" y="-2823"/>
         </scene>
         <!--Customers List Table View Controller-->
         <scene sceneID="yir-t7-aoN">
@@ -499,7 +571,7 @@
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gt1-Xs-bXf" id="H8J-dt-TPE">
-                                    <rect key="frame" x="0.0" y="0.0" width="567" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="567" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
@@ -512,11 +584,18 @@
                             <outlet property="delegate" destination="GtN-l4-ryx" id="tam-Sm-bCv"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Ltr-mS-mMJ"/>
+                    <navigationItem key="navigationItem" id="Ltr-mS-mMJ">
+                        <barButtonItem key="leftBarButtonItem" title="Settings" id="jck-Gn-TSo"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="X88-go-P3a">
+                            <connections>
+                                <segue destination="TOJ-Dr-SB8" kind="presentation" identifier="AddCustomerViewControllerSegue" id="Qk2-4a-xAO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KJU-9G-QHZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7428" y="-2386"/>
+            <point key="canvasLocation" x="-7674" y="-2142"/>
         </scene>
         <!--My Bank-->
         <scene sceneID="2Ei-Hl-j7h">
@@ -596,7 +675,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cAp-my-t4b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-8130" y="-2386"/>
+            <point key="canvasLocation" x="-8354" y="-2142"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="PM5-OV-W4Y">
@@ -692,6 +771,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Jhx-9K-4nU"/>
+        <segue reference="eWF-B5-nGR"/>
     </inferredMetricsTieBreakers>
 </document>

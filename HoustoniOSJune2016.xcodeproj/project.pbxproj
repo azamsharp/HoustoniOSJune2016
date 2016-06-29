@@ -30,6 +30,10 @@
 		346585AF1D183E4700DB202B /* BirdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346585AE1D183E4700DB202B /* BirdsViewController.m */; };
 		346585B21D18409D00DB202B /* LogBirdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346585B11D18409D00DB202B /* LogBirdsViewController.m */; };
 		3467B9F81D1B1C7F00088A5D /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467B9F71D1B1C7F00088A5D /* Customer.m */; };
+		348FC8A31D237BF700F1BE07 /* UserDefaultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348FC8A21D237BF700F1BE07 /* UserDefaultsViewController.m */; };
+		348FC8A61D237F6600F1BE07 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 348FC8A51D237F6600F1BE07 /* Person.m */; };
+		3493F3F81D240C8000D0EAFB /* Resource_UserDefaults in Resources */ = {isa = PBXBuildFile; fileRef = 3493F3F71D240C8000D0EAFB /* Resource_UserDefaults */; };
+		3493F3FB1D2417D600D0EAFB /* AddCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3493F3FA1D2417D600D0EAFB /* AddCustomerViewController.m */; };
 		349B243F1D20CFAF0098199E /* DemoGesturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349B243E1D20CFAF0098199E /* DemoGesturesViewController.m */; };
 		34A2799B1D216E5000F1F09B /* Resource_Code in Resources */ = {isa = PBXBuildFile; fileRef = 34A2799A1D216E5000F1F09B /* Resource_Code */; };
 		34A279A01D217BAA00F1F09B /* AnimationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A2799F1D217BAA00F1F09B /* AnimationsViewController.m */; };
@@ -100,6 +104,13 @@
 		346585B11D18409D00DB202B /* LogBirdsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogBirdsViewController.m; sourceTree = "<group>"; };
 		3467B9F61D1B1C7F00088A5D /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
 		3467B9F71D1B1C7F00088A5D /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		348FC8A11D237BF700F1BE07 /* UserDefaultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsViewController.h; sourceTree = "<group>"; };
+		348FC8A21D237BF700F1BE07 /* UserDefaultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsViewController.m; sourceTree = "<group>"; };
+		348FC8A41D237F6600F1BE07 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		348FC8A51D237F6600F1BE07 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		3493F3F71D240C8000D0EAFB /* Resource_UserDefaults */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Resource_UserDefaults; sourceTree = "<group>"; };
+		3493F3F91D2417D600D0EAFB /* AddCustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCustomerViewController.h; sourceTree = "<group>"; };
+		3493F3FA1D2417D600D0EAFB /* AddCustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCustomerViewController.m; sourceTree = "<group>"; };
 		349B243D1D20CFAF0098199E /* DemoGesturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoGesturesViewController.h; sourceTree = "<group>"; };
 		349B243E1D20CFAF0098199E /* DemoGesturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoGesturesViewController.m; sourceTree = "<group>"; };
 		34A2799A1D216E5000F1F09B /* Resource_Code */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Resource_Code; sourceTree = "<group>"; };
@@ -293,9 +304,22 @@
 			name = ProtocolsLesson;
 			sourceTree = "<group>";
 		};
+		348FC8A01D237BC400F1BE07 /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				348FC8A11D237BF700F1BE07 /* UserDefaultsViewController.h */,
+				348FC8A21D237BF700F1BE07 /* UserDefaultsViewController.m */,
+				348FC8A41D237F6600F1BE07 /* Person.h */,
+				348FC8A51D237F6600F1BE07 /* Person.m */,
+				3493F3F71D240C8000D0EAFB /* Resource_UserDefaults */,
+			);
+			name = UserDefaults;
+			sourceTree = "<group>";
+		};
 		349B243C1D20CF9A0098199E /* Week 3 */ = {
 			isa = PBXGroup;
 			children = (
+				348FC8A01D237BC400F1BE07 /* UserDefaults */,
 				34FD0AC31D22BCF800C8C8DB /* FAQ */,
 				34FD0AC21D22BCF000C8C8DB /* Navigation */,
 				34A2799D1D217B9300F1F09B /* AnimationsLesson */,
@@ -426,6 +450,8 @@
 				34FD0AD41D22D82E00C8C8DB /* AccountViewController.m */,
 				34FD0AD61D22D85300C8C8DB /* AddAccountViewController.h */,
 				34FD0AD71D22D85300C8C8DB /* AddAccountViewController.m */,
+				3493F3F91D2417D600D0EAFB /* AddCustomerViewController.h */,
+				3493F3FA1D2417D600D0EAFB /* AddCustomerViewController.m */,
 			);
 			name = Navigation;
 			sourceTree = "<group>";
@@ -506,6 +532,7 @@
 				3400E4581D1AD57F00E5AE4B /* Notes in Resources */,
 				340AAE481D0F108300C488BF /* Lecture_1 in Resources */,
 				340AAE391D0F09AB00C488BF /* Main.storyboard in Resources */,
+				3493F3F81D240C8000D0EAFB /* Resource_UserDefaults in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +544,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				340AAE4B1D0F152500C488BF /* CatViewController.m in Sources */,
+				348FC8A31D237BF700F1BE07 /* UserDefaultsViewController.m in Sources */,
 				34F533A51D12F6BA007387E4 /* CollectionLessonViewController.m in Sources */,
 				34F533A11D12F5C5007387E4 /* ScientificCalculatorViewController.m in Sources */,
 				3404B43E1D11A00700EFAF69 /* CarViewController.m in Sources */,
@@ -539,12 +567,14 @@
 				3404B4461D11AF1600EFAF69 /* Car.m in Sources */,
 				34A84B341D19898A00FA168A /* CustomersTableViewController.m in Sources */,
 				34E0EB6C1D10668C0044B669 /* Dog.m in Sources */,
+				3493F3FB1D2417D600D0EAFB /* AddCustomerViewController.m in Sources */,
 				34F533A91D130AB4007387E4 /* SliderControlViewController.m in Sources */,
 				340AAE4E1D0F231500C488BF /* DogViewController.m in Sources */,
 				34A279A31D21887F00F1F09B /* ThemeManager.m in Sources */,
 				34FD0AD51D22D82E00C8C8DB /* AccountViewController.m in Sources */,
 				34EAAC171D1C559A0039EB87 /* CreatingUIViewController.m in Sources */,
 				34E0EB631D1053270044B669 /* DataTypeViewController.m in Sources */,
+				348FC8A61D237F6600F1BE07 /* Person.m in Sources */,
 				346585A51D183BB200DB202B /* Pelican.m in Sources */,
 				34FD0AC91D22C7E900C8C8DB /* SimpleViewController.m in Sources */,
 				34EAAC0E1D1C246C0039EB87 /* CustomViewWithProtocolsController.m in Sources */,
