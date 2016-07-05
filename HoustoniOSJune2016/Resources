@@ -1,0 +1,63 @@
+//
+//  DynamicsDemoViewController.m
+//  HoustoniOSJune2016
+//
+//  Created by Mohammad Azam on 7/4/16.
+//  Copyright © 2016 Mohammad Azam. All rights reserved.
+//
+
+#import "DynamicsDemoViewController.h"
+
+@interface DynamicsDemoViewController ()
+
+@end
+
+@implementation DynamicsDemoViewController
+
+- (void)viewDidLoad {
+
+[super viewDidLoad];
+
+UIView *orangeView = [[UIView alloc] initWithFrame:CGRectMake(100, 20, 100, 100)];
+orangeView.backgroundColor = [UIColor orangeColor];
+
+UIView *blueView = [[UIView alloc] initWithFrame:CGRectMake(10, 0, 100, 100)];
+blueView.backgroundColor = [UIColor blueColor];
+
+[self.view addSubview:blueView];
+[self.view addSubview:orangeView];
+
+_animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.view];
+_gravity = [[UIGravityBehavior alloc] initWithItems:@[orangeView]];
+_collision = [[UICollisionBehavior alloc] initWithItems:@[orangeView]];
+_collision.translatesReferenceBoundsIntoBoundary = YES;
+
+_snap = [[UISnapBehavior alloc] initWithItem:blueView snapToPoint:self.view.center];
+_snap.damping = 0.2;
+
+// add a boundry
+CGPoint rightEdge = CGPointMake(blueView.frame.origin.x + blueView.frame.size.width, blueView.frame.origin.y);
+
+[_collision addBoundaryWithIdentifier:@"barrier" fromPoint:blueView.frame.origin toPoint:rightEdge];
+
+[_animator addBehavior:_gravity];
+[_animator addBehavior:_collision];
+[_animator addBehavior:_snap];
+}
+
+- (void)didReceiveMemoryWarning {
+[super didReceiveMemoryWarning];
+// Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+// Get the new view controller using [segue destinationViewController].
+// Pass the selected object to the new view controller.
+}
+*/
+
+@end

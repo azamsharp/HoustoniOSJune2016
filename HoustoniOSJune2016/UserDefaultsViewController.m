@@ -29,6 +29,12 @@
     
     [userDefaults setObject:personData forKey:@"SecretPerson"];
     
+    NSMutableArray *personArray = [NSMutableArray arrayWithObjects:person, nil];
+    
+    NSData *personArrayData = [NSKeyedArchiver archivedDataWithRootObject:personArray];
+    
+    [userDefaults setObject:personArrayData forKey:@"PersonArray"];
+    
     //NSArray *personArray = [NSArray arrayWithObject:person];
     
     //[userDefaults setObject:personArray forKey:@"SecretPersonArray"];
@@ -44,6 +50,10 @@
     NSData *personData = [userDefaults valueForKey:@"SecretPerson"];
     
     Person *person = (Person *) [NSKeyedUnarchiver unarchiveObjectWithData:personData];
+    
+    NSData *personArrayData = [userDefaults valueForKey:@"PersonArray"];
+    
+    NSMutableArray *personArray = (NSMutableArray *) [NSKeyedUnarchiver unarchiveObjectWithData:personArrayData];
     
     NSLog(@"");
     

@@ -30,6 +30,7 @@
 		346585AF1D183E4700DB202B /* BirdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346585AE1D183E4700DB202B /* BirdsViewController.m */; };
 		346585B21D18409D00DB202B /* LogBirdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346585B11D18409D00DB202B /* LogBirdsViewController.m */; };
 		3467B9F81D1B1C7F00088A5D /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3467B9F71D1B1C7F00088A5D /* Customer.m */; };
+		34921C091D2BF0A500E54761 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 34921C081D2BF0A500E54761 /* Resources */; };
 		3493F3F81D240C8000D0EAFB /* Resource_UserDefaults in Resources */ = {isa = PBXBuildFile; fileRef = 3493F3F71D240C8000D0EAFB /* Resource_UserDefaults */; };
 		3493F3FB1D2417D600D0EAFB /* AddCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3493F3FA1D2417D600D0EAFB /* AddCustomerViewController.m */; };
 		3493F3FE1D24221A00D0EAFB /* UserDefaultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3493F3FD1D24221A00D0EAFB /* UserDefaultsViewController.m */; };
@@ -40,6 +41,9 @@
 		34A279A31D21887F00F1F09B /* ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A279A21D21887F00F1F09B /* ThemeManager.m */; };
 		34A84B341D19898A00FA168A /* CustomersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A84B331D19898A00FA168A /* CustomersTableViewController.m */; };
 		34A84B371D199C3700FA168A /* CustomerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A84B361D199C3700FA168A /* CustomerTableViewCell.m */; };
+		34BA3A281D2C00BB004D1655 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BA3A271D2C00BB004D1655 /* ContainerViewController.m */; };
+		34BA3A2B1D2C00DE004D1655 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BA3A2A1D2C00DE004D1655 /* SearchViewController.m */; };
+		34BA3A2E1D2C00EB004D1655 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BA3A2D1D2C00EB004D1655 /* ResultsViewController.m */; };
 		34E0EB3D1D1042730044B669 /* Lecture_2 in Resources */ = {isa = PBXBuildFile; fileRef = 34E0EB3C1D1042730044B669 /* Lecture_2 */; };
 		34E0EB631D1053270044B669 /* DataTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E0EB621D1053270044B669 /* DataTypeViewController.m */; };
 		34E0EB661D105D440044B669 /* MethodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E0EB651D105D440044B669 /* MethodsViewController.m */; };
@@ -104,6 +108,7 @@
 		346585B11D18409D00DB202B /* LogBirdsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogBirdsViewController.m; sourceTree = "<group>"; };
 		3467B9F61D1B1C7F00088A5D /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
 		3467B9F71D1B1C7F00088A5D /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		34921C081D2BF0A500E54761 /* Resources */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Resources; sourceTree = "<group>"; };
 		3493F3F71D240C8000D0EAFB /* Resource_UserDefaults */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Resource_UserDefaults; sourceTree = "<group>"; };
 		3493F3F91D2417D600D0EAFB /* AddCustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCustomerViewController.h; sourceTree = "<group>"; };
 		3493F3FA1D2417D600D0EAFB /* AddCustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCustomerViewController.m; sourceTree = "<group>"; };
@@ -122,6 +127,12 @@
 		34A84B331D19898A00FA168A /* CustomersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomersTableViewController.m; sourceTree = "<group>"; };
 		34A84B351D199C3700FA168A /* CustomerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerTableViewCell.h; sourceTree = "<group>"; };
 		34A84B361D199C3700FA168A /* CustomerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerTableViewCell.m; sourceTree = "<group>"; };
+		34BA3A261D2C00BB004D1655 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		34BA3A271D2C00BB004D1655 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		34BA3A291D2C00DE004D1655 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		34BA3A2A1D2C00DE004D1655 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		34BA3A2C1D2C00EB004D1655 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		34BA3A2D1D2C00EB004D1655 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 		34E0EB3C1D1042730044B669 /* Lecture_2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lecture_2; sourceTree = "<group>"; };
 		34E0EB611D1053270044B669 /* DataTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTypeViewController.h; sourceTree = "<group>"; };
 		34E0EB621D1053270044B669 /* DataTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTypeViewController.m; sourceTree = "<group>"; };
@@ -195,6 +206,7 @@
 		340AAE2D1D0F09AA00C488BF /* HoustoniOSJune2016 */ = {
 			isa = PBXGroup;
 			children = (
+				34A528681D2AE1DF00AE5B51 /* Week 4 */,
 				349B243C1D20CF9A0098199E /* Week 3 */,
 				34C0C6801D165050001988B1 /* Week 2 */,
 				343D318B1D144A3F0005C301 /* Resources */,
@@ -357,6 +369,15 @@
 			name = AnimationsLesson;
 			sourceTree = "<group>";
 		};
+		34A528681D2AE1DF00AE5B51 /* Week 4 */ = {
+			isa = PBXGroup;
+			children = (
+				34BA3A251D2C00A1004D1655 /* ViewControllerContainment */,
+				34921C081D2BF0A500E54761 /* Resources */,
+			);
+			name = "Week 4";
+			sourceTree = "<group>";
+		};
 		34A84B311D19889D00FA168A /* TableViewLesson */ = {
 			isa = PBXGroup;
 			children = (
@@ -368,6 +389,19 @@
 				3467B9F71D1B1C7F00088A5D /* Customer.m */,
 			);
 			name = TableViewLesson;
+			sourceTree = "<group>";
+		};
+		34BA3A251D2C00A1004D1655 /* ViewControllerContainment */ = {
+			isa = PBXGroup;
+			children = (
+				34BA3A261D2C00BB004D1655 /* ContainerViewController.h */,
+				34BA3A271D2C00BB004D1655 /* ContainerViewController.m */,
+				34BA3A291D2C00DE004D1655 /* SearchViewController.h */,
+				34BA3A2A1D2C00DE004D1655 /* SearchViewController.m */,
+				34BA3A2C1D2C00EB004D1655 /* ResultsViewController.h */,
+				34BA3A2D1D2C00EB004D1655 /* ResultsViewController.m */,
+			);
+			name = ViewControllerContainment;
 			sourceTree = "<group>";
 		};
 		34C0C6801D165050001988B1 /* Week 2 */ = {
@@ -530,6 +564,7 @@
 				34A2799B1D216E5000F1F09B /* Resource_Code in Resources */,
 				340AAE3B1D0F09AB00C488BF /* Assets.xcassets in Resources */,
 				3400E4581D1AD57F00E5AE4B /* Notes in Resources */,
+				34921C091D2BF0A500E54761 /* Resources in Resources */,
 				340AAE481D0F108300C488BF /* Lecture_1 in Resources */,
 				340AAE391D0F09AB00C488BF /* Main.storyboard in Resources */,
 				3493F3F81D240C8000D0EAFB /* Resource_UserDefaults in Resources */,
@@ -561,9 +596,11 @@
 				340AAE301D0F09AA00C488BF /* main.m in Sources */,
 				3400E45E1D1AF50F00E5AE4B /* StepperView.m in Sources */,
 				34EAAC141D1C49C10039EB87 /* AnotherRoundedView.m in Sources */,
+				34BA3A281D2C00BB004D1655 /* ContainerViewController.m in Sources */,
 				3493F4011D242C4B00D0EAFB /* Person.m in Sources */,
 				34FD0ACC1D22C85700C8C8DB /* DetailsViewController.m in Sources */,
 				34E0EB661D105D440044B669 /* MethodsViewController.m in Sources */,
+				34BA3A2B1D2C00DE004D1655 /* SearchViewController.m in Sources */,
 				3404B4461D11AF1600EFAF69 /* Car.m in Sources */,
 				34A84B341D19898A00FA168A /* CustomersTableViewController.m in Sources */,
 				34E0EB6C1D10668C0044B669 /* Dog.m in Sources */,
@@ -574,6 +611,7 @@
 				34FD0AD51D22D82E00C8C8DB /* AccountViewController.m in Sources */,
 				34EAAC171D1C559A0039EB87 /* CreatingUIViewController.m in Sources */,
 				34E0EB631D1053270044B669 /* DataTypeViewController.m in Sources */,
+				34BA3A2E1D2C00EB004D1655 /* ResultsViewController.m in Sources */,
 				346585A51D183BB200DB202B /* Pelican.m in Sources */,
 				34FD0AC91D22C7E900C8C8DB /* SimpleViewController.m in Sources */,
 				34EAAC0E1D1C246C0039EB87 /* CustomViewWithProtocolsController.m in Sources */,
