@@ -24,9 +24,7 @@
 -(void) searchViewControllerDidSearchButtonPressed:(NSString *)searchString {
     
     self.searchStringLabel.text = searchString;
-    
     NSLog(@"%@",searchString);
-    
 }
 
 - (void)didReceiveMemoryWarning {

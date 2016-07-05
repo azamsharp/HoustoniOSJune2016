@@ -44,6 +44,7 @@
 		34BA3A281D2C00BB004D1655 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BA3A271D2C00BB004D1655 /* ContainerViewController.m */; };
 		34BA3A2B1D2C00DE004D1655 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BA3A2A1D2C00DE004D1655 /* SearchViewController.m */; };
 		34BA3A2E1D2C00EB004D1655 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BA3A2D1D2C00EB004D1655 /* ResultsViewController.m */; };
+		34C135C01D2C104200C0479F /* UIKitDynamicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C135BF1D2C104200C0479F /* UIKitDynamicsViewController.m */; };
 		34E0EB3D1D1042730044B669 /* Lecture_2 in Resources */ = {isa = PBXBuildFile; fileRef = 34E0EB3C1D1042730044B669 /* Lecture_2 */; };
 		34E0EB631D1053270044B669 /* DataTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E0EB621D1053270044B669 /* DataTypeViewController.m */; };
 		34E0EB661D105D440044B669 /* MethodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E0EB651D105D440044B669 /* MethodsViewController.m */; };
@@ -133,6 +134,8 @@
 		34BA3A2A1D2C00DE004D1655 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		34BA3A2C1D2C00EB004D1655 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
 		34BA3A2D1D2C00EB004D1655 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		34C135BE1D2C104200C0479F /* UIKitDynamicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitDynamicsViewController.h; sourceTree = "<group>"; };
+		34C135BF1D2C104200C0479F /* UIKitDynamicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitDynamicsViewController.m; sourceTree = "<group>"; };
 		34E0EB3C1D1042730044B669 /* Lecture_2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lecture_2; sourceTree = "<group>"; };
 		34E0EB611D1053270044B669 /* DataTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTypeViewController.h; sourceTree = "<group>"; };
 		34E0EB621D1053270044B669 /* DataTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTypeViewController.m; sourceTree = "<group>"; };
@@ -400,6 +403,8 @@
 				34BA3A2A1D2C00DE004D1655 /* SearchViewController.m */,
 				34BA3A2C1D2C00EB004D1655 /* ResultsViewController.h */,
 				34BA3A2D1D2C00EB004D1655 /* ResultsViewController.m */,
+				34C135BE1D2C104200C0479F /* UIKitDynamicsViewController.h */,
+				34C135BF1D2C104200C0479F /* UIKitDynamicsViewController.m */,
 			);
 			name = ViewControllerContainment;
 			sourceTree = "<group>";
@@ -597,6 +602,7 @@
 				3400E45E1D1AF50F00E5AE4B /* StepperView.m in Sources */,
 				34EAAC141D1C49C10039EB87 /* AnotherRoundedView.m in Sources */,
 				34BA3A281D2C00BB004D1655 /* ContainerViewController.m in Sources */,
+				34C135C01D2C104200C0479F /* UIKitDynamicsViewController.m in Sources */,
 				3493F4011D242C4B00D0EAFB /* Person.m in Sources */,
 				34FD0ACC1D22C85700C8C8DB /* DetailsViewController.m in Sources */,
 				34E0EB661D105D440044B669 /* MethodsViewController.m in Sources */,
