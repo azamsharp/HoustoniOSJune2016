@@ -23,6 +23,8 @@
 		340AAE4B1D0F152500C488BF /* CatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AAE4A1D0F152500C488BF /* CatViewController.m */; };
 		340AAE4E1D0F231500C488BF /* DogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AAE4D1D0F231500C488BF /* DogViewController.m */; };
 		340AAE501D0F346400C488BF /* Assignment1 in Resources */ = {isa = PBXBuildFile; fileRef = 340AAE4F1D0F346400C488BF /* Assignment1 */; };
+		3416E3FC1D2E9548004C3E78 /* AutolayoutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3416E3FB1D2E9548004C3E78 /* AutolayoutsViewController.m */; };
+		3416E3FE1D2E996E004C3E78 /* Resources_Autolayouts in Resources */ = {isa = PBXBuildFile; fileRef = 3416E3FD1D2E996E004C3E78 /* Resources_Autolayouts */; };
 		343D318D1D144A500005C301 /* RW-Objective-C-Cheatsheet-v-1-5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 343D318C1D144A500005C301 /* RW-Objective-C-Cheatsheet-v-1-5.pdf */; };
 		34503A4C1D1A1EA0007EDE76 /* RoundedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34503A4B1D1A1EA0007EDE76 /* RoundedView.m */; };
 		346585A51D183BB200DB202B /* Pelican.m in Sources */ = {isa = PBXBuildFile; fileRef = 346585A41D183BB200DB202B /* Pelican.m */; };
@@ -95,6 +97,9 @@
 		340AAE4C1D0F231500C488BF /* DogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogViewController.h; sourceTree = "<group>"; };
 		340AAE4D1D0F231500C488BF /* DogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogViewController.m; sourceTree = "<group>"; };
 		340AAE4F1D0F346400C488BF /* Assignment1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Assignment1; sourceTree = "<group>"; };
+		3416E3FA1D2E9548004C3E78 /* AutolayoutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutolayoutsViewController.h; sourceTree = "<group>"; };
+		3416E3FB1D2E9548004C3E78 /* AutolayoutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutolayoutsViewController.m; sourceTree = "<group>"; };
+		3416E3FD1D2E996E004C3E78 /* Resources_Autolayouts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Resources_Autolayouts; sourceTree = "<group>"; };
 		343D318C1D144A500005C301 /* RW-Objective-C-Cheatsheet-v-1-5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "RW-Objective-C-Cheatsheet-v-1-5.pdf"; sourceTree = "<group>"; };
 		34503A4A1D1A1EA0007EDE76 /* RoundedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedView.h; sourceTree = "<group>"; };
 		34503A4B1D1A1EA0007EDE76 /* RoundedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedView.m; sourceTree = "<group>"; };
@@ -273,6 +278,16 @@
 			name = ClassesAndObjects;
 			sourceTree = "<group>";
 		};
+		3416E3F61D2E94AE004C3E78 /* AutolayoutsAndStackViewLesson */ = {
+			isa = PBXGroup;
+			children = (
+				3416E3FA1D2E9548004C3E78 /* AutolayoutsViewController.h */,
+				3416E3FB1D2E9548004C3E78 /* AutolayoutsViewController.m */,
+				3416E3FD1D2E996E004C3E78 /* Resources_Autolayouts */,
+			);
+			name = AutolayoutsAndStackViewLesson;
+			sourceTree = "<group>";
+		};
 		343D318B1D144A3F0005C301 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -375,6 +390,7 @@
 		34A528681D2AE1DF00AE5B51 /* Week 4 */ = {
 			isa = PBXGroup;
 			children = (
+				3416E3F61D2E94AE004C3E78 /* AutolayoutsAndStackViewLesson */,
 				34BA3A251D2C00A1004D1655 /* ViewControllerContainment */,
 				34921C081D2BF0A500E54761 /* Resources */,
 			);
@@ -564,6 +580,7 @@
 				34E0EB3D1D1042730044B669 /* Lecture_2 in Resources */,
 				340AAE501D0F346400C488BF /* Assignment1 in Resources */,
 				343D318D1D144A500005C301 /* RW-Objective-C-Cheatsheet-v-1-5.pdf in Resources */,
+				3416E3FE1D2E996E004C3E78 /* Resources_Autolayouts in Resources */,
 				3404B4401D11A64100EFAF69 /* File in Resources */,
 				340AAE3E1D0F09AB00C488BF /* LaunchScreen.storyboard in Resources */,
 				34A2799B1D216E5000F1F09B /* Resource_Code in Resources */,
@@ -614,6 +631,7 @@
 				34F533A91D130AB4007387E4 /* SliderControlViewController.m in Sources */,
 				340AAE4E1D0F231500C488BF /* DogViewController.m in Sources */,
 				34A279A31D21887F00F1F09B /* ThemeManager.m in Sources */,
+				3416E3FC1D2E9548004C3E78 /* AutolayoutsViewController.m in Sources */,
 				34FD0AD51D22D82E00C8C8DB /* AccountViewController.m in Sources */,
 				34EAAC171D1C559A0039EB87 /* CreatingUIViewController.m in Sources */,
 				34E0EB631D1053270044B669 /* DataTypeViewController.m in Sources */,
